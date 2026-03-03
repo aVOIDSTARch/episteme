@@ -77,8 +77,6 @@ def process_ai_file(filepath: Path) -> tuple[bool, list[str]]:
         content_cleaned = clean_block(content)
         if is_low_value_url(url, len(content_cleaned)):
             low_value.append(url)
-        else:
-            pass
         new_parts.append(head + "\n```\n" + content_cleaned + tail)
     filepath.write_text("\n\n---\n\n".join(new_parts) + "\n", encoding="utf-8")
     has_content = len(parts) > 1

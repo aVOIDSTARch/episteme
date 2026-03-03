@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: Lua style guide (lua-users wiki)
 
 **URL:** https://lua-users.org/wiki/LuaStyleGuide  
@@ -296,4 +298,5 @@ An attempt at a style guide should probably limit focus to the Lua language itse
 RecentChanges · preferences
 edit · historyLast edited March 15, 2022 6:36 pm GMT (diff)
 ```
+
 

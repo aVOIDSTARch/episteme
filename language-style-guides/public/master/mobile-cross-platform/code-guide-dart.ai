@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: Effective Dart (official style guide)
 
 **URL:** https://dart.dev/effective-dart  
@@ -858,4 +860,5 @@ If there are multiple ways to say something, you should generally pick the
  View source
  or report an issue.
 ```
+
 

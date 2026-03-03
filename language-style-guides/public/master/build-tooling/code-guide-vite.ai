@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: Vite documentation – Project structure
 
 **URL:** https://vitejs.dev/guide/  
@@ -180,4 +182,5 @@ To replace the Vite version used by dependencies transitively, you should use np
 Community ​
 If you have questions or need help, reach out to the community at Discord and GitHub Discussions.
 ```
+
 

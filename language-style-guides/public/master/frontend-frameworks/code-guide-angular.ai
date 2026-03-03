@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: Google Angular Style Guide
 
 **URL:** https://google.github.io/styleguide/angularjs-google-style.html  
@@ -337,4 +339,5 @@ my.app.MyCtrl = function($http, myService) {
 
  Last modified Feb 07 2013
 ```
+
 

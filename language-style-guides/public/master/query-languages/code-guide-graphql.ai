@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: GraphQL Best Practices (graphql.org)
 
 **URL:** https://graphql.org/learn/best-practices/  
@@ -84,4 +86,5 @@ Thinking in Graphs
 Learn how to shift your mindset from RESTful endpoints to graph-based thinking, aligning your schema with business logic and legacy systems.
 Go to next lesson
 ```
+
 

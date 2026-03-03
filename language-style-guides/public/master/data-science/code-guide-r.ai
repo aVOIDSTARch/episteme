@@ -15,6 +15,8 @@ Specific pages to crawl for this topic:
 
 ---
 
+---
+
 ## Source: Google R Style Guide
 
 **URL:** https://google.github.io/styleguide/Rguide.html  
@@ -129,4 +131,5 @@ packagename-package.R file.
 
  This site is open source. Improve this page.
 ```
+
 
