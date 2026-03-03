@@ -1,6 +1,10 @@
 # Scrape report
 
-Generated after cleaning scraped content (trim whitespace, collapse blank lines).
+Generated after cleaning scraped content: trim line whitespace, collapse 3+ blank lines to 2, trim each source block. Content is left as plain text (no reformatting of rules/code) so sources remain traceable.
+
+- **Successfully scraped:** 61 files (all `code-guide-*.ai` under `public/master/` that have at least one scraped source).
+- **Failed / could not access:** 6 URLs (see below; fix links or retry).
+- **Low-value / index pages:** 3 files contain at least one source that is a listing page or very short; consider replacing those links with direct style-guide URLs.
 
 ---
 
