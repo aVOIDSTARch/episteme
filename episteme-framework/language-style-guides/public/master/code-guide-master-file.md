@@ -135,6 +135,6 @@ Keep this section actionable so the agent can decide when and how to apply the g
 | **README.md** (this directory) | Folder layout and list of code-guide files. |
 | **Scrape/merge** | Populate raw source content; scripts and state: `scrape_guides.py`, `merge_google_into_master.py`, `scrape.md`, `scrape-report.md`. Cleaning and merging produce the blocks that feed sections 1.2 and 1.3. |
 | **code-guide-sources.md** (repo root) | List of style-guide sites to crawl; used by scrape workflow. |
-| **code-guide-format-analysis.md** (ai-docs) | Analysis and usage notes for agents: how to apply this format when analyzing or improving code style; recommendations and quick reference. |
+| **code-guide-master-file.md** (this doc) | Defines the target shape of each code guide; apply when analyzing or improving code style. |
 
-When in doubt: **this document defines the target shape of each code guide; scrape/merge and manual editing fill and refine the content.** For usage and interpretation, see `ai-docs/code-guide-format-analysis.md`.
+When in doubt: **this document defines the target shape of each code guide; scrape/merge and manual editing fill and refine the content.**

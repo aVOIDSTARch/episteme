@@ -27,7 +27,7 @@ Create or update meta-docs for imported skills with location, risk, and conversa
 ## Read first
 
 - my-skills/imported-skills/_imported-skills.md
-- .episteme-project/files-to-remove-later/ai-docs/skill-creation-notes.md
+- my-skills/skill-definition/_skill-definition.md
 
 
 ## REQUIRED_SKILLS

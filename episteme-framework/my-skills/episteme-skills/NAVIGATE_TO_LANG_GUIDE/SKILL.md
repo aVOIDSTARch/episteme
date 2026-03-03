@@ -22,7 +22,7 @@ Resolve language or framework to the correct code-guide-<topic>.ai path using pu
 ## Read first
 
 - language-style-guides/public/master/README.md
-- ai-docs/code-guide-format-analysis.md
+- language-style-guides/public/master/code-guide-master-file.md
 
 ## REQUIRED_SKILLS
 

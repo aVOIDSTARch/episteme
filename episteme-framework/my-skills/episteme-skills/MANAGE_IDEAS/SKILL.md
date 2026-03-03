@@ -45,6 +45,8 @@ Browse, capture, and synthesize ideas from the Ideas System.
 
 | ADD_IDEA | my-skills/episteme-skills/ADD_IDEA/ |
 
+| INSERT_IDEAS_FROM_FILE | my-skills/episteme-skills/INSERT_IDEAS_FROM_FILE/ |
+
 | SYNTHESIZE_TOPIC_TO_PROJECT_IDEAS | my-skills/episteme-skills/SYNTHESIZE_TOPIC_TO_PROJECT_IDEAS/ |
 
 

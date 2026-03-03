@@ -21,7 +21,7 @@ If repo or user states a style (e.g. Google C#), apply that Per-source subsectio
 
 ## Read first
 
-- ai-docs/code-guide-format-analysis.md
+- language-style-guides/public/master/code-guide-master-file.md
 
 ## REQUIRED_SKILLS
 

@@ -23,11 +23,9 @@ Explain what the episteme framework is in this repo, its major components (track
 
 ## Read first
 
-- ai-docs/README.md
-- ai-docs/episteme-system-capabilities-and-gaps.md
+- agent-docs/README.md
 - my-skills/episteme-skills/SKILLS_TREE.md
-- .episteme-project/files-to-remove-later/meta-agent.md
-- episteme-framework/agent-docs/meta-agent.example.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 

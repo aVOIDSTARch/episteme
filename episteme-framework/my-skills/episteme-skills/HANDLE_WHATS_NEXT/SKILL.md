@@ -21,7 +21,7 @@ Combined [INCOMPLETE] and [ENHANCEMENT] by project; then act or return.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 

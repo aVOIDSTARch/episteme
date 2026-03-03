@@ -26,7 +26,11 @@ Check 001–005 tracking docs against their _docs and report compliance issues.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/_docs-tracking-system-review.md
+- projects/tracking-system/01-project-schemas/_project-schema.md
+- projects/tracking-system/02-planning-docs/_planning-docs.md
+- projects/tracking-system/03-progress-docs/_progress-docs.md
+- projects/tracking-system/04-completed/_completed-report.md
+- projects/tracking-system/05-after-action/_after-action.md
 - projects/tracking-system/01-project-schemas/_project-schema.md
 - projects/tracking-system/02-planning-docs/_planning-docs.md
 - projects/tracking-system/03-progress-docs/_progress-docs.md

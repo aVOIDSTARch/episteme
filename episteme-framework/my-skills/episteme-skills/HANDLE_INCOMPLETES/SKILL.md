@@ -21,7 +21,7 @@ Scan ~/completed-projects/*-appendix.md; menu of projects with incomplete items;
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 

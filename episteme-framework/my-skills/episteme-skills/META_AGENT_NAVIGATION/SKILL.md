@@ -27,7 +27,7 @@ Implement /menu and related navigation commands for projects and ideas.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 - episteme-framework/agent-docs/meta-agent.example.md
 
 

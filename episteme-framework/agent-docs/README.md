@@ -1,6 +1,6 @@
 # ai-docs
 
-**Purpose:** Agent- and human-facing docs for the episteme framework: system capabilities, skills map (episteme-skills), code guide usage, and references to schemas/notes elsewhere.
+**Purpose:** Agent- and human-facing docs for the episteme framework: skills map (episteme-skills), code guide usage, and references to schemas elsewhere.
 
 ---
 
@@ -8,18 +8,20 @@
 
 | Doc | Purpose |
 |-----|---------|
-| **[episteme-system-capabilities-and-gaps.md](episteme-system-capabilities-and-gaps.md)** | Full list of what the system should do (meta-agent, tracking, ideas, code guides, my-skills); complete vs not-yet; ai-docs review gaps. **Vet this list first.** |
 | **Episteme skills map** | [my-skills/episteme-skills/SKILLS_TREE.md](../my-skills/episteme-skills/SKILLS_TREE.md) — tree, legend, and flat list of episteme skills. See also [episteme-skills/README.md](../my-skills/episteme-skills/README.md). |
-| **[code-guide-format-analysis.md](code-guide-format-analysis.md)** | How to use the code-guide-*.ai format when analyzing or improving code style; what works, gaps, recommendations. |
+| **[TODO-MIND-MACHINE-BASE.md](TODO-MIND-MACHINE-BASE.md)** | Checklist to complete the repo as a base fork: agent interface, structures, data files, automation, passive library affordances, personalization. **Increment:** [todo-2.md](todo-2.md). |
+| **[LIBRARY-MAP.md](LIBRARY-MAP.md)** | Passive perusal map: links to ai-docs, skills, tracking, ideas-engine, code guides, config. No actions; to act use meta-agent + skills. |
+| **[INDEX.md](../INDEX.md)** | Framework sitemap: one doc linking every major section (agent-docs, my-skills, projects, ideas-engine, language-style-guides). |
+| **[OVERRIDES.md](OVERRIDES.md)** | Where to set IDEAS_ROOT, completed-projects path, .episteme-local; env vars. |
+| **[NEW-PROJECT.md](NEW-PROJECT.md)** | What to copy into a new project (AGENTS.md/CLAUDE.md, point to meta-agent; optional tracking _docs). |
 
 ---
 
-## Related (elsewhere)
+## Related (in framework)
 
-- **Skills to make first:** Running list of skills to create → `.episteme-project/files-to-remove-later/ai-docs/skills-to-make-first.md` (consider moving here).
-- **Skill creation notes:** How to create SKILLs → same folder `skill-creation-notes.md`; **project-schema-setup-skill-notes** → `project-schema-setup-skill-notes.md`.
-- **_Docs design / tracking review:** `.episteme-project/files-to-remove-later/ai-docs/` (_docs-format-and-design-notes, _docs-design, _docs-tracking-system-review).
-- **Schemas (_docs):** `projects/tracking-system/01-project-schemas/` through `05-after-action/`; `ideas-engine/_idea-file-schema.md`; `my-skills/skill-definition/`, `my-skills/episteme-skills/`, `my-skills/imported-skills/`.
-- **Code guide master:** `language-style-guides/public/master/code-guide-master-file.md`.
-- **Ideas engine:** `ideas-engine/` (README, schema, AGENT-INSTRUCTIONS, template).
-- **Meta-agent:** `.episteme-project/files-to-remove-later/meta-agent.md` or `episteme-framework/agent-docs/meta-agent.example.md`.
+- **Meta-agent:** [meta-agent.example.md](meta-agent.example.md) — cross-project behavior, slash commands, conventions.
+- **Schemas (_docs):** [projects/tracking-system/](../projects/tracking-system/) (01–05); [ideas-engine/_idea-file-schema.md](../ideas-engine/_idea-file-schema.md); [my-skills/skill-definition/](../my-skills/skill-definition/), [episteme-skills/](../my-skills/episteme-skills/), [imported-skills/](../my-skills/imported-skills/).
+- **Code guide master:** [language-style-guides/public/master/code-guide-master-file.md](../language-style-guides/public/master/code-guide-master-file.md).
+- **Ideas engine:** [ideas-engine/](../ideas-engine/) (README, schema, AGENT-INSTRUCTIONS, template).
+
+**When personalizing:** You can add locally (e.g. in your fork or project) optional docs such as a capabilities checklist, skill-creation notes, project-schema-setup notes, or _docs design notes; the base framework does not depend on them.

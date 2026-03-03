@@ -21,7 +21,7 @@ Apply only the Consensus subsection of the loaded code guide to edits and sugges
 
 ## Read first
 
-- ai-docs/code-guide-format-analysis.md
+- language-style-guides/public/master/code-guide-master-file.md
 
 ## REQUIRED_SKILLS
 

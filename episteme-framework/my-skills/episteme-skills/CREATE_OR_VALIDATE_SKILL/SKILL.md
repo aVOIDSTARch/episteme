@@ -28,7 +28,8 @@ Create a new skill folder or validate an existing one against the skill-definiti
 
 - my-skills/skill-definition/_skill-definition.md
 - my-skills/skill-definition/skill-standard/_skill-standard.md
-- .episteme-project/files-to-remove-later/ai-docs/skill-creation-notes.md
+- my-skills/skill-definition/_skill-definition.md
+- my-skills/skill-definition/skill-standard/_skill-standard.md
 
 
 ## REQUIRED_SKILLS

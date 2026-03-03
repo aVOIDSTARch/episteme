@@ -21,8 +21,8 @@ Load _docs format, naming, template structure from episteme design notes.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/_docs-format-and-design-notes.md
-- .episteme-project/files-to-remove-later/ai-docs/_docs-design.md
+- agent-docs/README.md
+- projects/tracking-system/, ideas-engine/_idea-file-schema.md, my-skills/skill-definition/
 
 ## REQUIRED_SKILLS
 

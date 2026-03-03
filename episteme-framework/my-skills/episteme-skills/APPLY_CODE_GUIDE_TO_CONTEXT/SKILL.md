@@ -21,7 +21,7 @@ Apply consensus rules first; then per-source rules if repo states a style. Cite 
 
 ## Read first
 
-- ai-docs/code-guide-format-analysis.md
+- language-style-guides/public/master/code-guide-master-file.md
 
 ## REQUIRED_SKILLS
 

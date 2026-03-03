@@ -26,7 +26,7 @@ Set up runtimes and tooling (e.g. Node, pnpm) for a project after schema creatio
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/project-schema-setup-skill-notes.md
+- projects/tracking-system/01-project-schemas/_project-schema.md
 
 
 ## REQUIRED_SKILLS

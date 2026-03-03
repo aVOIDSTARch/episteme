@@ -21,7 +21,7 @@ Present main nav: Projects (submenu: slash commands, new project, back), Ideas, 
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 

@@ -28,7 +28,7 @@ Create or update a project schema from user input and agent-observed data.
 ## Read first
 
 - projects/tracking-system/01-project-schemas/_project-schema.md
-- .episteme-project/files-to-remove-later/ai-docs/project-schema-setup-skill-notes.md
+- projects/tracking-system/01-project-schemas/_project-schema.md
 
 
 ## REQUIRED_SKILLS

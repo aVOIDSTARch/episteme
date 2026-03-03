@@ -26,7 +26,7 @@ Turn a concrete meta-agent doc into a reusable project-/user-agnostic template.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-notes/meta-agent-template-process-notes.md
+- agent-docs/meta-agent.example.md
 
 
 ## REQUIRED_SKILLS

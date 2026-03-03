@@ -1,0 +1,15 @@
+---
+description: Episteme repo — read bootstrap and agent-docs for context
+alwaysApply: true
+---
+
+# Episteme agent context
+
+When working in this repository:
+
+1. **Bootstrap** — Read [AGENTS.md](AGENTS.md) at repo root for what this repo is and where to start.
+2. **Agent entry** — For framework behavior, slash commands, and conventions, read [episteme-framework/agent-docs/README.md](episteme-framework/agent-docs/README.md) (ai-docs index) and [episteme-framework/agent-docs/meta-agent.example.md](episteme-framework/agent-docs/meta-agent.example.md).
+3. **Perusal** — To explore the library without acting, use [episteme-framework/agent-docs/LIBRARY-MAP.md](episteme-framework/agent-docs/LIBRARY-MAP.md).
+4. **Skills** — Episteme-native skills live under [episteme-framework/my-skills/episteme-skills/](episteme-framework/my-skills/episteme-skills/); see SKILLS_TREE.md and README.md there. When a task matches a skill (e.g. onboarding, project setup, ideas, code guides), use that skill’s SKILL.md.
+
+Keep project-specific overrides in AGENTS.md or your project’s agent doc; the meta-agent is the single source of universal behavior.

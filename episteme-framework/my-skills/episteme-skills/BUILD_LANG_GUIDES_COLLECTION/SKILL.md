@@ -29,7 +29,7 @@ Orchestrate discovery, transformation, scoring, and application of language code
 ## Read first
 
 - language-style-guides/public/master/code-guide-master-file.md
-- ai-docs/code-guide-format-analysis.md
+- language-style-guides/public/master/code-guide-master-file.md
 
 
 ## REQUIRED_SKILLS

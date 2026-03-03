@@ -28,7 +28,8 @@ Summarize the current project using the tracking system docs (001–005) and any
 - projects/tracking-system/03-progress-docs/_progress-docs.md
 - projects/tracking-system/04-completed/_completed-report.md
 - projects/tracking-system/05-after-action/_after-action.md
-- .episteme-project/files-to-remove-later/ai-docs/000-sample-project-compliance.md
+- projects/example-project/
+- projects/tracking-system/
 
 ## REQUIRED_SKILLS
 

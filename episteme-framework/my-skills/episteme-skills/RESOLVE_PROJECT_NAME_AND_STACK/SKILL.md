@@ -21,7 +21,7 @@ Suggest project name/slug or stack from description; user picks or supplies own.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/project-schema-setup-skill-notes.md
+- projects/tracking-system/01-project-schemas/_project-schema.md
 
 ## REQUIRED_SKILLS
 

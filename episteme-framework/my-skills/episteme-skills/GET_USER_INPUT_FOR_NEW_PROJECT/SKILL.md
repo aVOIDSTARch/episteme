@@ -21,7 +21,7 @@ Elicit user-supplied schema fields: name/slug, summary, owner, type, stack, depl
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/project-schema-setup-skill-notes.md
+- projects/tracking-system/01-project-schemas/_project-schema.md
 
 ## REQUIRED_SKILLS
 

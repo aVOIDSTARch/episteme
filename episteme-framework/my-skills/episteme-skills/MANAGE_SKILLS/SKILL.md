@@ -31,7 +31,7 @@ Create, validate, scaffold, and document skills used in the episteme framework.
 - my-skills/skill-definition/skill-standard/_skill-standard.md
 - my-skills/episteme-skills/_episteme-skills.md
 - my-skills/imported-skills/_imported-skills.md
-- .episteme-project/files-to-remove-later/ai-docs/skill-creation-notes.md
+- my-skills/skill-definition/_skill-definition.md
 
 
 ## REQUIRED_SKILLS

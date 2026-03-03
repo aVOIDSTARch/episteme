@@ -21,7 +21,8 @@ Create or validate one _doc and/or instance doc per episteme _doc design.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/ai-docs/_docs-format-and-design-notes.md
+- agent-docs/README.md
+- projects/tracking-system/ (example _docs)
 
 ## REQUIRED_SKILLS
 

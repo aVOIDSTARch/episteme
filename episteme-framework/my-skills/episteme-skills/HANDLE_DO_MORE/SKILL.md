@@ -21,7 +21,7 @@ Menu of projects with next/enhancement ideas; propose plan or return.
 
 ## Read first
 
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 

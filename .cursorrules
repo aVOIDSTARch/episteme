@@ -1,0 +1,3 @@
+# Episteme — Cursor agent (legacy single-file rule)
+
+Read AGENTS.md at repo root first. When relevant, read episteme-framework/agent-docs/README.md and meta-agent.example.md for framework behavior and slash commands. Use episteme-framework/agent-docs/LIBRARY-MAP.md to peruse the library. Skills: episteme-framework/my-skills/episteme-skills/ (see SKILLS_TREE.md).

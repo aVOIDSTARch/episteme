@@ -4,4 +4,4 @@ Episteme-native skills live here: one folder per skill, each with a `SKILL.md` t
 
 **Map:** For the full hierarchy and one-line purpose of each skill, see **[SKILLS_TREE.md](SKILLS_TREE.md)** (tree + legend + flat list).
 
-**System checklist:** What the episteme system should do (and what’s done vs not) → `ai-docs/episteme-system-capabilities-and-gaps.md`.
+**System checklist:** What the episteme system should do (and what’s done vs not) → agent-docs/README.md (index); add a capabilities checklist locally when personalizing.

@@ -22,7 +22,7 @@ Assess security, trust, dependencies, conflicts for an imported skill; summary; 
 ## Read first
 
 - my-skills/imported-skills/_imported-skills.md
-- .episteme-project/files-to-remove-later/meta-agent.md
+- agent-docs/meta-agent.example.md
 
 ## REQUIRED_SKILLS
 
