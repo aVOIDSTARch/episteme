@@ -78,6 +78,8 @@ All scan `~/completed-projects/*-appendix.md` and use `AskUserQuestion` menus. A
 
 **Future-app invariants:** `id`, `topic`, `verbatim` (immutable), `claude_interpretation`, `created_at`; 1:1 topic files; append-only; TypeScript API (tRPC/REST) with markdown as source.
 
+**Full spec and agent instructions:** See **ideas-engine/** in this repo (README, schema, AGENT-INSTRUCTIONS, template). Use for format details, `/ideas` and `/add-idea` steps, and future-app invariants.
+
 ---
 
 ## Ideas

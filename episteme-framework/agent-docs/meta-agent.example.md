@@ -77,3 +77,5 @@ All scan your completed-projects appendix files (e.g. `~/completed-projects/*-ap
 - **`/add-idea <text>`** — Match or create topic file; append Verbatim and agent interpretation; confirm.
 
 **Future-app invariants (if you build an app):** e.g. `id`, `topic`, `verbatim` (immutable), `agent_interpretation`, `created_at`; 1:1 topic files; append-only; API (e.g. tRPC/REST) with markdown as source.
+
+If your canonical repo includes an **ideas-engine** (or equivalent) folder, point the agent there for the full Ideas System spec, schema, and agent instructions.

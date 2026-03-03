@@ -35,7 +35,7 @@ Raw scraped content may live in an **Appendix** for traceability; the normalized
 ## 3. Gaps and improvements
 
 - **Single-source consensus:** With only one scraped source (e.g. Google for C#), “Consensus” is effectively “that one source.” The file should state this (e.g. “Derived from the single scraped source (Google); treat as baseline until more sources are merged”). As more sources are merged, consensus should be re-derived and the note updated.
-- **Guide quality rating:** Implement a small rating (e.g. 1–5 or star-like) for trustworthiness/completeness of each guide, with concrete metrics and a short synopsis of why it scored that way. Store the score and synopsis at the top of the guide (or in Overview) so agents can weight usage.
+- **Guide quality rating (required):** Every guide must include a small rating (e.g. 1–5 or star-like) for trustworthiness/completeness, with concrete metrics and a short synopsis of why it scored that way. Store at the top of Overview; re-score when sources or conflicts change.
 - **Appendix size and archive:** Keeping full raw scrapes in-file can make files very large. Prefer archiving raw scrapes in a **scraping archive folder** in a formatted, pruned form that is easy to traverse later; keep only the Sources table and normalized guide in the `.ai` file (or a truncated appendix plus "full scrape in archive").
 - **Per-source density (codified):** Per-source subsections must stay concise: only rules that are **unique** or **conflicting**. Do not restate consensus in Per-source. This is a standing convention for all code guides.
 - **Tooling links:** Include direct links to linter/formatter config (e.g. EditorConfig, StyleCop docs) for copy-paste or “suggest this config.”

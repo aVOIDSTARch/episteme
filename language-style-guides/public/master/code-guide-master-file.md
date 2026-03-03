@@ -28,6 +28,8 @@ Keep this section short and scannable. The agent uses it to decide whether the g
 ```markdown
 ## Overview
 
+**Guide quality: N/5** — Short synopsis (sources merged, trustworthiness, completeness). Re-score when sources or conflicts change.
+
 Python is a dynamic, interpreted language with a large standard library and ecosystem. Best for: scripting, tooling, data science, backend services, and rapid prototyping. Avoid for: low-latency or memory-constrained systems, heavy numeric kernels (prefer compiled). Ecosystem: CPython/pypa, pip/venv, 3.x. [Official docs](https://docs.python.org/). Style guide last updated: YYYY-MM-DD.
 ```
 
@@ -116,6 +118,7 @@ Keep this section actionable so the agent can decide when and how to apply the g
 ## 2. Conventions for agents
 
 - **File naming:** `code-guide-<topic>.ai` under the appropriate subfolder (see `README.md` in this directory). Topic matches the language or framework (e.g. `code-guide-python.ai`, `code-guide-ts-js.ai`).
+- **Guide quality rating:** Every code guide must include a guide quality rating at the top of Overview (e.g. 1–5 or star-like), with a short synopsis of why it scored that way and when to re-score. This is required, not optional.
 - **Scraped content:** Raw `## Source: …` blocks with **URL:** and **Crawled:** may remain in the file or in a scraping archive folder. The **Sources** table (section 1.2) is the canonical list; consensus and per-source subsections (1.3) are the normalized, usable guide. Prefer a formatted, pruned archive for full raw scrapes to keep `.ai` files manageable.
 - **Single-source disclaimer:** When only one source has been scraped, state in Consensus that it is “derived from the single scraped source (e.g. [name]); treat as baseline until more sources are merged.” Re-derive consensus when additional sources are merged.
 - **Per-source density:** Per-source subsections contain only **unique** or **conflicting** rules; do not restate consensus there.
