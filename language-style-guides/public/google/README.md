@@ -4,6 +4,8 @@
 
 Collected by level-by-level fetch (no crawler yet). One file per language/topic. Append/edit/refactor as needed.
 
+**Processed:** Content from these files has been merged into (or was already present in) the corresponding `public/master/` code-guide-*.ai files. See [PROCESSED.md](PROCESSED.md) for the mapping. Each `.md` file has a `<!-- Processed -->` note at the top.
+
 ## Files
 
 | File | Topic | Source URL |

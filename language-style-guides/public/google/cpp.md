@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 Google C++ Style Guide
 
 # Google C++ Style Guide

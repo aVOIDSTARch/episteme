@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 Google Java Style Guide
 
 # Google Java Style Guide

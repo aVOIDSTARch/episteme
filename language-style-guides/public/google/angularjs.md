@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 # Content from https://google.github.io/styleguide/angularjs-google-style.html
 
 # An AngularJS Style Guide for Closure Users at Google

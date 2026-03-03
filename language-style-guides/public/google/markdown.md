@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 Markdown style guide | styleguide
 
 # styleguide

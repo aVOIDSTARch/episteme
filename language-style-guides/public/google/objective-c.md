@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 Google Objective-C Style Guide | styleguide
 
 # styleguide

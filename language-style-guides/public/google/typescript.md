@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 Google TypeScript Style Guide
 
 # Google TypeScript Style Guide

@@ -1,3 +1,5 @@
+<!-- Processed: content merged or already in master; see google/PROCESSED.md -->
+
 styleguide | Style guides for Google-originated open-source projects
 
 # styleguide
