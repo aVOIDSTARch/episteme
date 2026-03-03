@@ -2,6 +2,8 @@
 
 **Purpose:** List of style-guide URLs used for scraping and merging into the master code-guide-*.ai files. For maintainers: when adding or refreshing a language guide, use these (or add new rows) and run the scrape/merge workflow.
 
+**Note:** The master guide library is not complete; it is started enough to prime the agent. Users are expected to complete it (add sources, run scrapes/merges, fill or add code-guide-*.ai files). See [public/master/README.md](public/master/README.md) (§ Library status).
+
 ---
 
 ## Primary sources

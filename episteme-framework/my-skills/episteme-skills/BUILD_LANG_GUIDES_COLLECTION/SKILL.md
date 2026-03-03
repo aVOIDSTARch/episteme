@@ -8,7 +8,7 @@ build-lang-guides-collection
 
 ## Description
 
-Orchestrate discovery, transformation, scoring, and application of language code style guides.
+Orchestrate discovery, transformation, scoring, and application of language code style guides. **Note:** The shipped guide collection is not complete; it is started enough to prime the agent. Users are expected to complete the library (add or fill in code-guide-*.ai files, run scrapes/merges, maintain quality ratings) for their languages and topics. See [language-style-guides/public/master/README.md](../../../language-style-guides/public/master/README.md) (§ Library status).
 
 
 ## When to use

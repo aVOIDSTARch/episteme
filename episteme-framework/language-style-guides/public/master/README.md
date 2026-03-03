@@ -8,6 +8,12 @@
 
 ---
 
+## Library status
+
+**This library is not complete.** It is started enough to prime the agent (structure, schema, sample guides, and skills are in place). **Users are expected to complete it:** add or fill in `code-guide-<topic>.ai` files for the languages and topics they use, run scrapes and merges as needed, and keep guides in sync with [code-guide-master-file.md](code-guide-master-file.md). Use [code-guide-sources.md](../../code-guide-sources.md) and the scripts in [language-style-guides/scripts/](../../scripts/) to add sources and refresh content.
+
+---
+
 ## Folder structure
 
 | Folder | Contents |
