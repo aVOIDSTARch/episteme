@@ -1,0 +1,778 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Neo4j Cypher style guide / naming](https://neo4j.com/docs/cypher-manual/current/style-guide/)
+- [Cypher query best practices (Neo4j)](https://neo4j.com/developer/cypher/guide-cypher-best-practices/)
+- [Kristories awesome-guidelines (browse graph DBs)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules](https://www.projectrules.ai/)
+- [Graph database style (general)](https://neo4j.com/docs/)
+---
+
+
+---
+
+---
+
+## Source: Kristories awesome-guidelines (browse graph DBs)
+
+**URL:** https://github.com/Kristories/awesome-guidelines  
+**Crawled:** 2026-03-03T06:36:26Z
+
+```
+GitHub - Kristories/awesome-guidelines: A curated list of high quality coding style conventions and standards.
+
+ Skip to content
+
+ Search or jump to...
+
+ Search code, repositories, users, issues, pull requests...
+
+ Search
+
+ Clear
+
+ Search syntax tips
+
+ Provide feedback
+
+ We read every piece of feedback, and take your input very seriously.
+
+ Include my email address so I can be contacted
+
+ Cancel
+
+ Submit feedback
+
+ Saved searches
+
+ Use saved searches to filter your results more quickly
+
+ Name
+
+ Query
+
+ To see all available qualifiers, see our documentation.
+
+ Cancel
+
+ Create saved search
+
+ Sign in
+
+ Sign up
+
+Appearance settings
+
+ Resetting focus
+
+ You signed in with another tab or window. Reload to refresh your session.
+ You signed out in another tab or window. Reload to refresh your session.
+ You switched accounts on another tab or window. Reload to refresh your session.
+
+Dismiss alert
+
+ {{ message }}
+
+ Kristories
+
+ /
+
+ awesome-guidelines
+
+ Public
+
+ Uh oh!
+
+ There was an error while loading. Please reload this page.
+
+Notifications
+ You must be signed in to change notification settings
+
+Fork
+ 608
+
+ Star
+ 10.6k
+
+ A curated list of high quality coding style conventions and standards.
+
+ License
+
+ CC0-1.0 license
+
+ 10.6k
+ stars
+
+ 608
+ forks
+
+ Branches
+
+ Tags
+
+ Activity
+
+ Star
+
+Notifications
+ You must be signed in to change notification settings
+
+ Kristories/awesome-guidelines
+
+ main
+
+BranchesTags
+
+Go to file
+
+CodeOpen more actions menu
+
+Folders and files
+NameNameLast commit message
+Last commit date
+
+Latest commit
+
+History
+271 Commits
+271 Commits
+
+.github
+
+.github
+
+assets
+
+assets
+
+.editorconfig
+
+.editorconfig
+
+.gitattributes
+
+.gitattributes
+
+.gitignore
+
+.gitignore
+
+LICENSE
+
+LICENSE
+
+README.md
+
+README.md
+
+code-of-conduct.md
+
+code-of-conduct.md
+
+contributing.md
+
+contributing.md
+
+package-lock.json
+
+package-lock.json
+
+package.json
+
+package.json
+
+test.js
+
+test.js
+
+travis.yml
+
+travis.yml
+
+View all files
+
+Repository files navigation
+
+Awesome Guidelines
+
+A set of guidelines for a specific programming language that provides recommendations on programming style, best practices, and methods for various aspects of writing programs in that language.
+
+Contents
+
+Programming Languages
+
+Development Environment
+
+Platforms
+
+Frameworks
+
+Content Management System
+
+Tools
+
+Programming Languages
+
+Brainfuck
+
+BF Style Guide - Guidelines for writing and formatting Brainfuck code.
+
+C
+
+C Coding Standard - Conventions and best practices for C code.
+
+C Programming/Structure and style - Structural and style recommendations for C programs.
+
+Making The Best Use of C - This chapter provides advice on how best to use the C language when writing GNU software.
+
+C#
+
+C# Coding Conventions - Official C# coding style conventions.
+
+C# Style Guide - Community C# style guide.
+
+C# Coding Standards and Naming Conventions - Standards and naming conventions for C# code.
+
+C++
+
+Google C++ Style Guide - C++ coding standards and best practices.
+
+C++ Core Guidelines - A set of tried-and-true guidelines, rules, and best practices about coding in C++.
+
+LLVM C++ Coding Standards - Coding standards for the LLVM project.
+
+Mozilla C++ Coding style - C++ coding style guidelines for Mozilla codebases.
+
+Chromium C++ style guide - C++ style guide for the Chromium project.
+
+Webkit C++ Code Style Guidelines - C++ code style guidelines for WebKit.
+
+NASA C++ Coding Standards and Style Guide - C++ coding standards for safety-critical systems.
+
+OceanBase C++ Coding Standards - C++ coding standards for OceanBase.
+
+Clojure
+
+The Clojure Style Guide - A community coding style guide for the Clojure programming language.
+
+Common Lisp
+
+Style Guide - Style guidance for Common Lisp code.
+
+Google Common Lisp Style Guide - Style guide for writing Common Lisp programs.
+
+Common Lisp Style Guide - Community recommendations for Common Lisp style.
+
+D
+
+The D Style - A set of style conventions for writing D programs.
+
+Dart
+
+Effective Dart - Recommendations for consistent, idiomatic Dart code.
+
+Delphi
+
+Delphi's Object Pascal Style Guide - Object Pascal coding style guidelines.
+
+Elixir
+
+Elixir Styleguide - Community Elixir coding style guide.
+
+Elm
+
+Elm style guide - Style suggestions and conventions for Elm.
+
+Emacs Lisp
+
+Elisp Guide - Guide to writing Emacs Lisp.
+
+Emacs Lisp Style Guide - Community style guide for Emacs Lisp.
+
+Erlang
+
+Programming Rules and Conventions - Guidelines and conventions for Erlang programming.
+
+Erlang Coding Guidelines - Community Erlang coding guidelines.
+
+F#
+
+The F# Component Design Guidelines - Official design and style guidelines for F#.
+
+Fortran
+
+Fortran 90 Standards - European Standards For Writing and Documenting Exchangeable Fortran 90 Code.
+
+Fortran Best Practices - Style guide and best practices for modern Fortran programs.
+
+Go
+
+Effective Go - Idioms and best practices for Go.
+
+Go Standard Project Layout - Basic layout for Go applications.
+
+Google Go Style Guide - Google's coding standards for source code in Go.
+
+Uber Go Style Guide - Patterns and conventions used in Go code at Uber.
+
+Groovy
+
+Apache Groovy style guide - Style guide for writing idiomatic Groovy code.
+
+Haskell
+
+Haskell Programming guidelines - Best practices for Haskell programming.
+
+Java
+
+Code Conventions for the Java™ Programming Language - Historical Java coding conventions.
+
+Google Java Style Guide - Google's coding standards for source code in the Java™ Programming Language.
+
+Java Programming Style Guide - Style recommendations for Java programming.
+
+Alibaba-Java-Coding-Guidelines - A guide for Java developers.
+
+JavaScript
+
+AngularJS Style Guide - Community-driven set of best practices for AngularJS application development.
+
+JavaScript The Right Way - An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web.
+
+Google JavaScript Style Guide - This document serves as the complete definition of Google's coding standards for source code in the JavaScript programming language.
+
+Airbnb JavaScript Style Guide - A mostly reasonable approach to JavaScript.
+
+jQuery Core Style Guide
+
+JavaScript Style Guides And Beautifiers
+
+JavaScript Style Guide and Coding Conventions
+
+Code Conventions for the JavaScript
+
+JavaScript Clean Code - Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript.
+
+Mozilla Coding Style Guide for JavaScript
+
+JSON
+
+Google JSON Style Guide - Recommendations for JSON formatting and usage.
+
+Julia
+
+Blue Style - Community style guide for Julia packages.
+
+Kotlin
+
+Coding Conventions - Official Kotlin coding conventions.
+
+Lua
+
+Lua Style Guide - Community Lua coding style guide.
+
+Markdown
+
+Google Markdown Style Guide - Style guide for Google-originated projects using Markdown.
+
+Markdown Style Guide - Practical guidelines for writing readable Markdown.
+
+GitLab Markdown Style Guide - Markdown Style Guide for about.GitLab.com.
+
+.NET
+
+.NET Standard - Formal specification of .NET APIs that are available across .NET implementations.
+
+.NET Secure Coding Guidelines - Guidance for writing secure .NET code.
+
+.NET Naming Guidelines - Naming conventions for .NET libraries.
+
+Nim
+
+Nim Style Guide - Style conventions and RFC for Nim code.
+
+Objective-C
+
+Objective-C Style guide - Style guide & coding conventions for Objective-C projects.
+
+Google Objective-C Style Guide - Objective-C coding standards and conventions.
+
+NYTimes Objective-C Style Guide - The Objective-C Style Guide used by The New York Times.
+
+Pascal
+
+Coding style - Style recommendations for Free Pascal.
+
+GNU Pascal Coding Standards - GNU Pascal standards used by GNU Pascal project.
+
+Perl
+
+Perl best practices v4 - Slides by Randal Schwartz, based on the book by Damian Conway.
+
+Perl Elements to Avoid - A list of unrecommended practices, and what to do instead.
+
+perlstyle - Perl style guidelines.
+
+PHP
+
+PHP FIG - PHP Standards Recommendations.
+
+PHP The Right Way - An easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web.
+
+Clean Code PHP - Clean Code concepts adapted for PHP.
+
+Python
+
+Style Guide for Python Code - Official Python style guide (PEP 8).
+
+Google Python Style Guide - Python coding standards.
+
+The Hitchhiker's Guide to Python - Highly regarded Python best practices guide.
+
+R
+
+Google's R Style Guide - R style conventions.
+
+The tidyverse style guide - Style guide for R code in the tidyverse.
+
+Racket
+
+How to Program Racket: a Style Guide - Style guidance for Racket programs.
+
+Ruby
+
+The Ruby Style Guide - A community-driven Ruby coding style guide.
+
+Ruby Style Guide - Airbnb's Ruby Style Guide.
+
+Ruby Style Guide - A community-driven Ruby coding style guide.
+
+Rust
+
+Rust Style Guide - Style guidelines for the Rust language.
+
+Rust Guidelines - Practices and guidance for writing Rust code.
+
+Rust API Guidelines
+
+Scala
+
+Effective Scala - Best practices and patterns for Scala.
+
+Scala Style Guide - Official style guide for Scala code.
+
+Databricks Scala Guide - Databricks Scala Coding Style Guide.
+
+Scala Best Practices - Recommendations and patterns for Scala development.
+
+Solidity
+
+Solidity Style Guide - Style guidelines for Solidity smart contracts.
+
+Solcurity Standard - Security checklist and guidelines for Solidity smart contracts.
+
+Swift
+
+API Design Guidelines - API design principles for Swift.
+
+Swift - GitHub Official Swift style and conventions.
+
+Swift style guide - Community Swift style guide.
+
+Swift Style Guide - LinkedIn Official Swift Style Guide.
+
+Metova's Swift style guide
+
+Xmartlabs Swift Style Guide - Swift language style guide & coding conventions followed by Xmartlabs.
+
+TypeScript
+
+Google TypeScript Style Guide - TypeScript Style Guide used at Google's.
+
+TypeScript deep dive - Style Guide - An unofficial TypeScript Style Guide.
+
+TypeScript Lang - Do's and Don'ts - Suggestions from TypeScript Lang organization.
+
+Visual Basic
+
+Visual Basic Concepts - Concepts and coding practices for classic Visual Basic.
+
+Visual Basic/Coding Standards - Coding standards for Visual Basic projects.
+
+XML
+
+Google XML Document Format Style Guide - XML formatting and style guidance.
+
+Development Environment
+
+Shell
+
+Shell Style Guide - Shell script style guide.
+
+Git
+
+Git Style Guide - Git usage and style recommendations.
+
+Few Rules from Git Documentation - Coding guidelines used in the Git project.
+
+PowerShell
+
+The PowerShell Best Practices and Style Guide - The Unofficial PowerShell Best Practices and Style Guide.
+
+Platforms
+
+Android
+
+Android Guidelines - Architecture and code guidelines we use at ribot when developing for Android.
+
+Xmartlabs Android Style Guide - Style guide for Android by Xmartlabs.
+
+Apache
+
+Apache Developers' C Language Style Guide - C language style guidelines for the Apache HTTP Server project.
+
+API
+
+HAL - A simple format that gives a consistent and easy way to hyperlink between resources in your API.
+
+Microsoft REST API Guidelines - The Microsoft REST API Guidelines.
+
+JSON API - Recommendations - This section contains recommendations for JSON API implementations.
+
+API Security Checklist - Checklist of the most important security countermeasures when designing, testing, and releasing your API.
+
+Google Cloud API Design Guide - A general design guide for networked APIs provided by Google.
+
+Arduino
+
+Arduino style guide - General coding style guidance for Arduino.
+
+API Style Guide for Arduino
+
+Frontend Development
+
+CSS Guidelines - High-level advice and guidelines for writing sane, manageable, scalable CSS.
+
+Frontend Guidelines - Some HTML, CSS and JS best practices.
+
+Sass Guidelines - An opinionated styleguide for writing sane, maintainable and scalable Sass.
+
+Airbnb CSS / Sass Styleguide - A mostly reasonable approach to CSS and Sass.
+
+HTML Style Guide - A style guide which helps you write better, performant, structured, scalable and maintainable HTML.
+
+HTML + CSS Code Guide - Standards for flexible, durable, and sustainable HTML and CSS.
+
+U.S. Web Design Standards - Open source UI components and visual style guide for U.S. government websites.
+
+CoffeeScript Style Guide - A collection of best-practices and coding conventions for the CoffeeScript programming language.
+
+LESS Coding Guidelines - Style guidelines for writing LESS.
+
+Google HTML/CSS Style Guide - HTML and CSS conventions and best practices.
+
+Guidelines for Responsive Web Design
+
+Yelp Styleguide
+
+Front-End Checklist
+
+BEM - Block Element Modifier - A methodology that helps you to create reusable components and code sharing in front‑end development.
+
+Web Content Accessibility Guidelines (WCAG) 2.1 - Recommendations for making web content more accessible.
+
+GNU
+
+GNU coding standards - Coding and documentation standards for GNU software.
+
+Java
+
+JavaEE Specification - Official specification for Java EE.
+
+Linux
+
+Linux kernel coding style - Coding style for the Linux kernel.
+
+Mailchimp
+
+Mailchimp Content Style Guide - Content style guidelines for Mailchimp.
+
+Mozilla
+
+Mozilla Coding Style Guide - Coding style guidance for Mozilla projects.
+
+Google
+
+Google-related developer documentation - This style guide provides editorial guidelines for writing clear and consistent Google-related developer documentation.
+
+Node.js
+
+Microsoft + Node.js Guidelines - Engineering guidelines for building Node.js apps.
+
+Node.js Style Guide - A guide for styling your Node.js / JavaScript code.
+
+MongoDB
+
+Mongo Style Guide - Style guidelines for MongoDB usage.
+
+SQL
+
+SQL Style Guide - SQL style and formatting guidelines.
+
+Other
+
+Keep a CHANGELOG - Don't let your friends dump Git logs into CHANGELOGs™.
+
+Project Guidelines - A set of best practices for JavaScript projects.
+
+Semantic Versioning - Versioning scheme for managing releases.
+
+Indent style - Overview of indentation styles in programming.
+
+WebAppSec/Secure Coding Guidelines
+
+Robot Framework User Guide
+
+CodeQL Coding Standards
+
+Frameworks
+
+Symfony Coding Standards
+
+Django Coding Style
+
+Vue Style Guide
+
+Angular Style Guide
+
+Content Management System
+
+WordPress Coding Standards
+
+Drupal Coding Standards
+
+Magento Coding Standards
+
+Octobercms Developer Guide
+
+Tools
+
+Checkstyle - Tool for checking Java source code for adherence to a Code Standard or set of validation rules.
+
+Conventional Changelog
+
+EasyCodingStandard - The Easiest Way to Use Any Coding Standard.
+
+ESLint - The pluggable linting utility for JavaScript and JSX.
+
+JavaScript Standard Style - One JavaScript Style to Rule Them All.
+
+Laravel Pint - An opinionated PHP code style fixer for minimalists.
+
+North - Design and development standards to align and guide your project.
+
+PHP_CodeSniffer - The tool for detecting and fixing the violations of the specified standards in PHP code.
+
+PHP Coding Standards Fixer - The PHP Coding Standards Fixer (PHP CS Fixer) tool fixes your code to follow standards.
+
+RuboCop - A Ruby static code analyzer and formatter, based on the community Ruby style guide.
+
+semantic-release
+
+ShellCheck - A shell script static analysis tool.
+
+Agents.md - A simple, open format for guiding coding agents
+
+ About
+
+ A curated list of high quality coding style conventions and standards.
+
+ Topics
+
+ coding-conventions
+
+ awesome
+
+ style-guide
+
+ awesome-list
+
+ code-quality
+
+ guidelines
+
+ hacktoberfest
+
+ style-conventions
+
+ awesome-guidelines
+
+ Resources
+
+ Readme
+
+ License
+
+ CC0-1.0 license
+
+ Code of conduct
+
+ Code of conduct
+
+ Contributing
+
+ Contributing
+
+ Uh oh!
+
+ There was an error while loading. Please reload this page.
+
+ Activity
+
+ Stars
+
+ 10.6k
+ stars
+
+ Watchers
+
+ 181
+ watching
+
+ Forks
+
+ 608
+ forks
+
+ Report repository
+
+Sponsor this project
+
+ Sponsor
+
+ Uh oh!
+
+ There was an error while loading. Please reload this page.
+
+ Learn more about GitHub Sponsors
+
+ Uh oh!
+
+ There was an error while loading. Please reload this page.
+
+ Contributors
+
+ Uh oh!
+
+ There was an error while loading. Please reload this page.
+
+ Languages
+
+ JavaScript
+ 100.0%
+
+ You can’t perform that action at this time.
+```
+

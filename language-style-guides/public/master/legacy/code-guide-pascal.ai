@@ -1,0 +1,722 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Pascal style (Free Pascal)](https://www.freepascal.org/docs-html/current/prog/prog.html)
+- [Delphi / Object Pascal style guide](https://docwiki.embarcadero.com/RADStudio/en/Code_Conventions)
+- [Kristories awesome-guidelines (browse Pascal)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules – Pascal](https://www.projectrules.ai/)
+- [Google Style Guide index](https://google.github.io/styleguide/)
+---
+
+
+---
+
+---
+
+## Source: Pascal style (Free Pascal)
+
+**URL:** https://www.freepascal.org/docs-html/current/prog/prog.html  
+**Crawled:** 2026-03-03T06:35:53Z
+
+```
+Free Pascal
+Programmer’s Guide
+
+Free
+Pascal
+
+Programmer’s
+Guide
+
+_____________________________________________________________________
+Programmer’s Guide for Free Pascal, Version 3.2.2
+
+ Document version 3.2.2
+
+ May 2021
+
+Micha�l Van Canneyt
+
+____________________________________________________________________________
+
+Contents
+
+List of Tables
+
+ About this document
+
+1 Compiler directives
+
+ 1.1 Introduction
+
+ 1.2 Local directives
+
+  1.2.1 $A or $ALIGN : Align Data
+
+  1.2.2 $A1, $A2,$A4 and $A8
+
+  1.2.3 $ASMMODE : Assembler mode (Intel 80x86 only)
+
+  1.2.4 $B or $BOOLEVAL : Complete boolean evaluation
+
+  1.2.5 $C or $ASSERTIONS : Assertion support
+
+  1.2.6 $BITPACKING : Enable bitsize packing
+
+  1.2.7 $CALLING : Specify calling convention
+
+  1.2.8 $CHECKPOINTER : Check pointer values
+
+  1.2.9 $CODEALIGN : Set the code alignment
+
+  1.2.10 $COPERATORS : Allow C like operators
+
+  1.2.11 $DEFINE or $DEFINEC : Define a symbol
+
+  1.2.12 $ELSE : Switch conditional compilation
+
+  1.2.13 $ELSEC : Switch conditional compilation
+
+  1.2.14 $ELSEIF or $ELIFC : Switch conditional compilation
+
+  1.2.15 $ENDC : End conditional compilation
+
+  1.2.16 $ENDIF : End conditional compilation
+
+  1.2.17 $ERROR or $ERRORC : Generate error message
+
+  1.2.18 $ENDREGION: End of a collapsible region
+
+  1.2.19 $EXTENDEDSYM: Ignored
+
+  1.2.20 $EXTERNALSYM: Ignored
+
+  1.2.21 $F : Far or near functions
+
+  1.2.22 $FATAL : Generate fatal error message
+
+  1.2.23 $FPUTYPE : Select coprocessor type
+
+  1.2.24 $GOTO : Support Goto and Label
+
+  1.2.25 $H or $LONGSTRINGS : Use AnsiStrings
+
+  1.2.26 $HINT : Generate hint message
+
+  1.2.27 $HINTS : Emit hints
+
+  1.2.28 $HPPEMIT: Ignored
+
+  1.2.29 $IF : Start conditional compilation
+
+  1.2.30 $IFC : Start conditional compilation
+
+  1.2.31 $IFDEF Name : Start conditional compilation
+
+  1.2.32 $IFNDEF : Start conditional compilation
+
+  1.2.33 $IFOPT : Start conditional compilation
+
+  1.2.34 $IMPLICITEXCEPTIONS : Implicit finalization code generation
+
+  1.2.35 $INFO : Generate info message
+
+  1.2.36 $INLINE : Allow inline code.
+
+  1.2.37 $INTERFACES : Specify Interface type.
+
+  1.2.38 $I or $IOCHECKS : Input/Output checking
+
+  1.2.39 $IEEEERRORS : Enable IEEE error checking for constants
+
+  1.2.40 $I or $INCLUDE : Include file
+
+  1.2.41 $I or $INCLUDE : Include compiler info
+
+  1.2.42 $J or $WRITEABLECONST : Allow assignments to typed consts
+
+  1.2.43 $L or $LINK : Link object file
+
+  1.2.44 $LIBEXPORT : Ignored
+
+  1.2.45 $LINKFRAMEWORK : Link to a framework
+
+  1.2.46 $LINKLIB : Link to a library
+
+  1.2.47 $M or $TYPEINFO : Generate type info
+
+  1.2.48 $MACRO : Allow use of macros.
+
+  1.2.49 $MAXFPUREGISTERS : Maximum number of FPU registers for variables
+
+  1.2.50 $MESSAGE : Generate user-defined message
+
+  1.2.51 $MINENUMSIZE : Specify minimum enumeration size
+
+  1.2.52 $MINFPCONSTPREC : Specify floating point constant precision
+
+  1.2.53 $MMX : Intel MMX support (Intel 80x86 only)
+
+  1.2.54 $NODEFINE : Ignored
+
+  1.2.55 $NOTE : Generate note message
+
+  1.2.56 $NOTES : Emit notes
+
+  1.2.57 $OBJECTCHECKS : Check Object
+
+  1.2.58 $OPTIMIZATION : Enable Optimizations
+
+  1.2.59 $PACKENUM or $Z : Minimum enumeration type size
+
+  1.2.60 $PACKRECORDS : Alignment of record elements
+
+  1.2.61 $PACKSET : Specify set size
+
+  1.2.62 $POP : Restore compiler settings
+
+  1.2.63 $PUSH : Save compiler settings
+
+  1.2.64 $Q or $OV or $OVERFLOWCHECKS: Overflow checking
+
+  1.2.65 $R or $RANGECHECKS : Range checking
+
+  1.2.66 $REGION : Mark start of collapsible region
+
+  1.2.67 $R or $RESOURCE : Include resource
+
+  1.2.68 $SATURATION : Saturation operations (Intel 80x86 only)
+
+  1.2.69 $SAFEFPUEXCEPTIONS Wait when storing FPU values on Intel x86
+
+  1.2.70 $SCOPEDENUMS Control use of scoped enumeration types
+
+  1.2.71 $SETC : Define and assign a value to a symbol
+
+  1.2.72 $S : Stack checking
+
+  1.2.73 $STOP : Generate fatal error message
+
+  1.2.74 $STRINGCHECKS : Ignored
+
+  1.2.75 $T or $TYPEDADDRESS : Typed address operator (@)
+
+  1.2.76 $UNDEF or $UNDEFC : Undefine a symbol
+
+  1.2.77 $V or $VARSTRINGCHECKS : Var-string checking
+
+  1.2.78 $W or $STACKFRAMES : Generate stackframes
+
+  1.2.79 $WAIT : Wait for enter key press
+
+  1.2.80 $WARN : Control emission of warnings
+
+  1.2.81 $WARNING : Generate warning message
+
+  1.2.82 $WARNINGS : Emit warnings
+
+  1.2.83 $Z1, $Z2 and $Z4
+
+ 1.3 Global directives
+
+  1.3.1 $APPID : Specify application ID.
+
+  1.3.2 $APPNAME : Specify application name.
+
+  1.3.3 $APPTYPE : Specify type of application.
+
+  1.3.4 $CODEPAGE : Set the source codepage
+
+  1.3.5 $COPYRIGHT specify copyright info
+
+  1.3.6 $D or $DEBUGINFO : Debugging symbols
+
+  1.3.7 $DESCRIPTION : Application description
+
+  1.3.8 $E : Emulation of coprocessor
+
+  1.3.9 $EXTENSION : Extension of generated binary.
+
+  1.3.10 $FRAMEWORKPATH : Specify framework path.
+
+  1.3.11 $G : Generate 80286 code
+
+  1.3.12 $IMAGEBASE : Specify DLL image base location.
+
+  1.3.13 $INCLUDEPATH : Specify include path.
+
+  1.3.14 $L or $LOCALSYMBOLS : Local symbol information
+
+  1.3.15 $LIBPREFIX : Specify library filename prefix.
+
+  1.3.16 $LIBRARYPATH : Specify library path.
+
+  1.3.17 $LIBSUFFIX : Set the library suffix
+
+  1.3.18 $MAXSTACKSIZE : Set maximum stack size
+
+  1.3.19 $M or $MEMORY : Memory sizes
+
+  1.3.20 $MINSTACKSIZE : Set minimum stack size
+
+  1.3.21 $MODE : Set compiler compatibility mode
+
+  1.3.22 $MODESWITCH : Select mode features
+
+  1.3.23 $N : Numeric processing
+
+  1.3.24 $O : Level 2 Optimizations
+
+  1.3.25 $OBJECTPATH : Specify object path.
+
+  1.3.26 $P or $OPENSTRINGS : Use open strings
+
+  1.3.27 $PASCALMAINNAME : Set entry point name
+
+  1.3.28 $PIC : Generate PIC code or not
+
+  1.3.29 $POINTERMATH : Allow use of pointer math
+
+  1.3.30 $PROFILE : Profiling
+
+  1.3.31 $SCREENNAME : Specify screen name
+
+  1.3.32 $SETPEFLAGS : Specify PE Executable flags
+
+  1.3.33 $SMARTLINK : Use smartlinking
+
+  1.3.34 $SYSCALLS : Select system calling convention on Amiga/MorphOS
+
+  1.3.35 $THREADNAME : Set thread name in Netware
+
+  1.3.36 $UNITPATH : Specify unit path.
+
+  1.3.37 $VARPROPSETTER : Enable use of var/out/constref parameters for property setters.
+
+  1.3.38 $VERSION : Specify DLL version.
+
+  1.3.39 $WEAKPACKAGEUNIT : ignored
+
+  1.3.40 $X or $EXTENDEDSYNTAX : Extended syntax
+
+  1.3.41 $Y or $REFERENCEINFO : Insert Browser information
+
+2 Using conditionals, messages and macros
+
+ 2.1 Conditionals
+
+  2.1.1 Predefined symbols
+
+ 2.2 Macros
+
+ 2.3 Compile time variables
+
+ 2.4 Compile time expressions
+
+  2.4.1 Definition
+
+  2.4.2 Usage
+
+ 2.5 Messages
+
+3 Using Assembly language
+
+ 3.1 Using assembler in the sources
+
+ 3.2 Intel 80x86 Inline assembler
+
+  3.2.1 Intel syntax
+
+  3.2.2 AT&T Syntax
+
+ 3.3 Motorola 680x0 Inline assembler
+
+ 3.4 Signaling changed registers
+
+4 Generated code
+
+ 4.1 Units
+
+ 4.2 Programs
+
+5 Intel MMX support
+
+ 5.1 What is it about?
+
+ 5.2 Saturation support
+
+ 5.3 Restrictions of MMX support
+
+ 5.4 Supported MMX operations
+
+ 5.5 Optimizing MMX support
+
+6 Code issues
+
+ 6.1 Register Conventions
+
+  6.1.1 accumulator register
+
+  6.1.2 accumulator 64-bit register
+
+  6.1.3 float result register
+
+  6.1.4 self register
+
+  6.1.5 frame pointer register
+
+  6.1.6 stack pointer register
+
+  6.1.7 scratch registers
+
+  6.1.8 Processor mapping of registers
+
+ 6.2 Name mangling
+
+  6.2.1 Mangled names for data blocks
+
+  6.2.2 Mangled names for code blocks
+
+  6.2.3 Modifying the mangled names
+
+ 6.3 Calling mechanism
+
+ 6.4 Nested procedure and functions
+
+ 6.5 Constructor and Destructor calls
+
+  6.5.1 objects
+
+  6.5.2 classes
+
+ 6.6 Entry and exit code
+
+  6.6.1 Intel 80x86 standard routine prolog / epilog
+
+  6.6.2 Motorola 680x0 standard routine prolog / epilog
+
+ 6.7 Parameter passing
+
+  6.7.1 Parameter alignment
+
+ 6.8 Stack limitations
+
+7 Linking issues
+
+ 7.1 Using external code and variables
+
+  7.1.1 Declaring external functions or procedures
+
+  7.1.2 Declaring external variables
+
+  7.1.3 Declaring the calling convention modifier
+
+  7.1.4 Declaring the external object code
+
+ 7.2 Making libraries
+
+  7.2.1 Exporting functions
+
+  7.2.2 Exporting variables
+
+  7.2.3 Compiling libraries
+
+  7.2.4 Unit searching strategy
+
+ 7.3 Using smart linking
+
+8 Memory issues
+
+ 8.1 The memory model.
+
+ 8.2 Data formats
+
+  8.2.1 Integer types
+
+  8.2.2 Char types
+
+  8.2.3 Boolean types
+
+  8.2.4 Enumeration types
+
+  8.2.5 Floating point types
+
+  8.2.6 Pointer types
+
+  8.2.7 String types
+
+  8.2.8 Set types
+
+  8.2.9 Static array types
+
+  8.2.10 Dynamic array types
+
+  8.2.11 Record types
+
+  8.2.12 Object types
+
+  8.2.13 Class types
+
+  8.2.14 File types
+
+  8.2.15 Procedural types
+
+ 8.3 Data alignment
+
+  8.3.1 Typed constants and variable alignment
+
+  8.3.2 Structured types alignment
+
+ 8.4 The heap
+
+  8.4.1 Heap allocation strategy
+
+  8.4.2 The heap grows
+
+  8.4.3 Debugging the heap
+
+  8.4.4 Writing your own memory manager
+
+ 8.5 Using dos memory under the Go32 extender
+
+ 8.6 When porting Turbo Pascal code
+
+ 8.7 Memavail and Maxavail
+
+9 Resource strings
+
+ 9.1 Introduction
+
+ 9.2 The resource string file
+
+ 9.3 Updating the string tables
+
+ 9.4 GNU gettext
+
+ 9.5 Caveat
+
+10 Thread programming
+
+ 10.1 Introduction
+
+ 10.2 Programming threads
+
+ 10.3 Critical sections
+
+ 10.4 The Thread Manager
+
+11 Optimizations
+
+ 11.1 Non processor specific
+
+  11.1.1 Constant folding
+
+  11.1.2 Constant merging
+
+  11.1.3 Short cut evaluation
+
+  11.1.4 Constant set inlining
+
+  11.1.5 Small sets
+
+  11.1.6 Range checking
+
+  11.1.7 And instead of modulo
+
+  11.1.8 Shifts instead of multiply or divide
+
+  11.1.9 Automatic alignment
+
+  11.1.10 Smart linking
+
+  11.1.11 Inline routines
+
+  11.1.12 Stack frame omission
+
+  11.1.13 Register variables
+
+ 11.2 Processor specific
+
+  11.2.1 Intel 80x86 specific
+
+  11.2.2 Motorola 680x0 specific
+
+ 11.3 Optimization switches
+
+ 11.4 Tips to get faster code
+
+ 11.5 Tips to get smaller code
+
+ 11.6 Whole Program Optimization
+
+  11.6.1 Overview
+
+ 11.7 General principles
+
+  11.7.1 How to use
+
+  11.7.2 Available WPO optimizations
+
+  11.7.3 format of the WPO file
+
+12 Programming shared libraries
+
+ 12.1 Introduction
+
+ 12.2 Creating a library
+
+ 12.3 Using a library in a pascal program
+
+ 12.4 Using a pascal library from a C program
+
+ 12.5 Some Windows issues
+
+13 Using Windows resources
+
+ 13.1 The resource directive $R
+
+ 13.2 Creating resources
+
+ 13.3 Using string tables.
+
+ 13.4 Inserting version information
+
+ 13.5 Inserting an application icon
+
+ 13.6 Using a Pascal preprocessor
+
+A Anatomy of a unit file
+
+ A.1 Basics
+
+ A.2 reading ppufiles
+
+ A.3 The Header
+
+ A.4 The sections
+
+ A.5 Creating ppufiles
+
+B Compiler and RTL source tree structure
+
+ B.1 The compiler source tree
+
+ B.2 The RTL source tree
+
+C Compiler limits
+
+D Compiler modes
+
+ D.1 FPC mode
+
+ D.2 TP mode
+
+ D.3 Delphi mode
+
+ D.4 DelphiUnicode mode
+
+ D.5 OBJFPC mode
+
+ D.6 MACPAS mode
+
+ D.7 ISO mode
+
+ D.8 Extended Pascal mode
+
+E Using fpcmake
+
+ E.1 Introduction
+
+ E.2 Functionality
+
+ E.3 Usage
+
+ E.4 Format of the configuration file
+
+  E.4.1 clean
+
+  E.4.2 compiler
+
+  E.4.3 Default
+
+  E.4.4 Dist
+
+  E.4.5 Install
+
+  E.4.6 Package
+
+  E.4.7 Prerules
+
+  E.4.8 Requires
+
+  E.4.9 Rules
+
+  E.4.10 Target
+
+ E.5 Programs needed to use the generated makefile
+
+ E.6 Variables that affect the generated makefile
+
+  E.6.1 Directory variables
+
+  E.6.2 Compiler command line variables
+
+ E.7 Variables set by fpcmake
+
+  E.7.1 Directory variables
+
+  E.7.2 Target variables
+
+  E.7.3 Compiler command line variables
+
+  E.7.4 Program names
+
+  E.7.5 File extensions
+
+  E.7.6 Target files
+
+ E.8 Rules and targets created by fpcmake
+
+  E.8.1 Pattern rules
+
+  E.8.2 Build rules
+
+  E.8.3 Cleaning rules
+
+  E.8.4 Archiving rules
+
+  E.8.5 Installation rules
+
+  E.8.6 Informative rules
+
+F Compiling the compiler
+
+ F.1 Introduction
+
+ F.2 Before starting
+
+ F.3 Compiling using make
+
+  F.3.1 Basic compilation
+
+  F.3.2 Compiling for another target
+
+  F.3.3 Installing the new compiler
+
+  F.3.4 Speeding up compilation
+
+  F.3.5 Adding debug information
+
+  F.3.6 Various other options
+
+ F.4 Compiling by hand
+
+  F.4.1 Compiling the RTL
+
+  F.4.2 Compiling the compiler
+
+G Compiler defines during compilation
+```
+

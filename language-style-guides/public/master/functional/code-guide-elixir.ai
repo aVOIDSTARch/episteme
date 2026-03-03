@@ -1,0 +1,26 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Elixir style guide (official)](https://hexdocs.pm/elixir/style-guide.html)
+- [Credo (Elixir linter / style)](https://hexdocs.pm/credo/)
+- [Kristories awesome-guidelines (browse Elixir)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules – Elixir](https://www.projectrules.ai/)
+- [Google Style Guide index](https://google.github.io/styleguide/)
+---
+
+
+---
+
+---
+
+## Source: Credo (Elixir linter / style)
+
+**URL:** https://hexdocs.pm/credo/  
+**Crawled:** 2026-03-03T06:35:27Z
+
+```
+Credo v1.7.16 — Documentation
+```
+

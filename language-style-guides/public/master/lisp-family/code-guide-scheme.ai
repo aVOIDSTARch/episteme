@@ -1,0 +1,259 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Scheme style (Scheme Reports / R7RS)](https://small.r7rs.org/)
+- [GNU Guile style](https://www.gnu.org/software/guile/manual/html_node/Style-Guide.html)
+- [Kristories awesome-guidelines (browse Scheme)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules – Scheme](https://www.projectrules.ai/)
+- [Google Style Guide index](https://google.github.io/styleguide/)
+---
+
+
+---
+
+---
+
+## Source: Scheme style (Scheme Reports / R7RS)
+
+**URL:** https://small.r7rs.org/  
+**Crawled:** 2026-03-03T06:36:01Z
+
+```
+R7RS-small archive
+
+ Home
+
+ All tickets
+
+ All wiki pages
+
+ Wiki­Start
+
+ alexshinn
+
+ 2016-09-23 23:06:40
+
+ 97history
+
+ source
+
+ Welcome to the Scheme Working Groups
+
+ The final R7RS-small report has been endorsed by a unanimous vote of the Scheme Language Steering Committee. A formal announcement was made at Scheme 2013. The TeX source code for the report has been released by the editors.
+
+ For a list of Scheme implementations supporting R7RS-small see ImplementationSupport.
+
+ Comments and discussion are welcome at the public discussion list. Errata for the final draft have been posted at R7RSSmallErrata.
+
+ For a complete list of local wiki pages, see TitleIndex (alphabetic) or RecentChanges (most recent first).
+
+ Click on "Attachments" below to access the first-year progress report and all draft reports.
+
+ Working Group 1 (Charter)
+
+ Member Page
+
+ Process
+
+ Sample Vote
+
+ First Ballot (Results)
+
+ Second Ballot (Results)
+
+ Third Ballot (Results)
+
+ Fourth Ballot (Results)
+
+ Fifth Ballot (Results)
+
+ Sixth Ballot (Results)
+
+ Seventh Ballot (Results)
+
+ Eighth Ballot (Results)
+
+ Ninth Ballot (Results)
+
+ Tenth Ballot (Results)
+
+ Issue Summaries and Proposals (many now obsolete)
+
+ Keywords
+
+ ModuleSystems
+
+ ModuleFactoringSummary
+
+ ModulesAndPackagesArcfide
+
+ ModulesShinn
+
+ ModulesGanz
+
+ RecordStandards
+
+ UniqueTypesSnellPym
+
+ RecordsArcfide
+
+ UserAggregatesRush
+
+ RecordsCowan
+
+ AggregatesMedernach
+
+ BinaryData
+
+ BlobsAndSRFI4SnellPym
+
+ BlobAPI (Cowan)
+
+ CharacterSets
+
+ UnicodeCowan
+
+ StringRepresentations
+
+ StringNormalization
+
+ CaseSensitivity
+
+ CaseSensitivityArcfide
+
+ Parameters
+
+ ParametersSnellPym
+
+ ImmutableParametersCowan (once again supersedes ParametersCowan)
+
+ Exceptions, Conditions, and Error handling
+
+ R6RSExceptionHandlingCowan
+
+ (replaces ExceptionHandlingCowan)
+
+ Random Number Generation
+
+ RandomCowan
+
+ RandomnessArcfide
+
+ RandomnessCommonLisp
+
+ SRFI-27
+
+ Let-syntax
+
+ LetSyntaxArcfide
+
+ Working Group 2 (Charter)
+
+ Member Page
+
+ Proposed revision to WG2 Charter
+
+ Note: Proposals and issue summaries are linked from the Docket pages below.
+
+ Work Item Dockets
+
+ WG2Dockets (full list of dockets)
+
+ InputDocket (new work items not yet accepted by WG2)
+
+ PreStandardDocket (work items to be moved to StandardDocket unless there are objections)
+
+ StandardDocket (main list of WG2 work items with proposals)
+
+ ConsentDocket (work items whose resolution is uncontroversial in the view of the chair)
+
+ ReassignedDocket (work items for future WGs)
+
+ RevoteDocket (work items that need a WG2 revote)
+
+ RejectedDocket (items that were rejected by a WG2 vote)
+
+ MandatoryDocket (things to consider making mandatory in R7RS-large)
+
+ Proposed Repository Format
+
+ Snow
+
+ Administration
+
+ WG2Calendar
+
+ Information on Scheme Implementations
+
+ Catalog of Condition/Exception Taxonomies
+
+ Catalogs of Features
+
+ Scheme Systems Supporting SRFIs, by John Cowan
+
+ DSSSL vs. Scheme (explains the difference between R4RS Scheme and the DSSSL expression language)
+
+ ImplementationContrasts (shows what different implementations do in particular circumstances)
+
+ Catalogs of Implementations
+
+ List of Scheme implementations, at Schemers.org
+
+ SchemeImplementationReleases
+
+ SchemeImplementors
+
+ ImplementationContrasts (gives list of 45 implementations used for testing)
+
+ Previous Scheme Standards
+
+ R0RS
+
+ R1RS
+
+ R2RS
+
+ R3RS
+
+ R4RS
+
+ R5RS
+
+ R6RS base, libraries, appendices, rationale
+
+ Administrative Details
+
+ SiteBackups
+
+ Editorial Corrections
+
+ R7RSSmallErrata
+
+ NinthDraftEditorialCorrections
+
+ EighthDraftEditorialCorrections
+
+ SeventhDraftEditorialCorrections (partial)
+
+ Attachments
+
+ filenametimedescription
+overview.pdf2013-04-16 02:42:38Overview of R7RS-small Scheme
+r7rs-draft-1.pdf2011-04-16 08:44:42R7RS small language first draft
+r7rs-draft-2.pdf2011-05-08 04:48:23R7RS small language draft as of Sat 7 May 2011
+r7rs-draft-3.pdf2011-07-25 22:29:01R7RS small language draft as of Mon 25 Jul 2011
+r7rs-draft-4.pdf2011-10-23 19:49:12
+r7rs-draft-5-diff.pdf2011-12-18 21:33:39
+r7rs-draft-5-ebook.pdf2011-12-18 21:33:15
+r7rs-draft-5.pdf2011-12-18 21:32:48
+r7rs-draft-6.pdf2012-02-14 21:15:41
+r7rs-draft-7.pdf2012-11-10 14:10:00R7RS Small Language 7th Draft
+r7rs-draft-8.pdf2012-12-09 13:21:04R7RS Small Language 8th Draft
+r7rs-draft-9.pdf2013-04-16 02:28:05R7RS Small Language 9th Draft
+r7rs-small-spec.zip2013-11-09 01:22:25TeX source for final draft
+r7rs.pdf2013-07-07 02:42:15R7RS-small language, final draft
+scheme-wg1-progress1.pdf2010-09-06 16:06:50WG1 progress report
+```
+

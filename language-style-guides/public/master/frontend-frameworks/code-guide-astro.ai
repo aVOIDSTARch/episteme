@@ -1,0 +1,733 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Astro documentation – Project structure](https://docs.astro.build/en/guides/configuring-astro/)
+- [Astro style and conventions](https://docs.astro.build/en/guides/content-collections/)
+- [Kristories awesome-guidelines (browse Astro)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules – Astro](https://www.projectrules.ai/)
+- [10xhub frontend style](https://10xhub.github.io/react-style-guide/)
+---
+
+
+---
+
+---
+
+## Source: Astro documentation – Project structure
+
+**URL:** https://docs.astro.build/en/guides/configuring-astro/  
+**Crawled:** 2026-03-03T06:35:15Z
+
+```
+Configuration overview | Docs
+
+ Skip to content
+
+ Search
+
+ GitHub
+
+ Discord
+
+ Select theme
+
+ DarkLightAuto
+
+ Select language
+
+ EnglishDeutschPortuguês do BrasilEspañol简体中文正體中文Françaisहिन्दीالعربية日本語한국어PolskiРусскийItaliano
+
+ Start
+
+ Guides and recipes
+
+ Reference
+
+ Integrations
+
+ Third-party services
+
+ Getting started
+
+ Welcome, world!
+
+ Why Astro?
+
+ Islands architecture
+
+ Tutorial: Build a blog
+
+ Courses
+
+ Start a new project
+
+ Installation
+
+ Project structure
+
+ Develop and build
+
+ Configuration
+
+ Configuration overview
+
+ Editor setup
+
+ TypeScript
+
+ Environment variables
+
+ Build with AI
+
+ Dev toolbar
+
+ Migrate to Astro
+
+ Site migration overview
+
+ Create React App
+
+ Docusaurus
+
+ Eleventy
+
+ Gatsby
+
+ GitBook
+
+ Gridsome
+
+ Hugo
+
+ Jekyll
+
+ Next.js
+
+ NuxtJS
+
+ Pelican
+
+ SvelteKit
+
+ VuePress
+
+ WordPress
+
+ Routing and navigation
+
+ Pages
+
+ Routing
+
+ Endpoints
+
+ Middleware
+
+ Internationalization (i18n)
+
+ Prefetch
+
+ View transitions
+
+ Build your UI
+
+ Components
+
+ Layouts
+
+ Styles and CSS
+
+ Fonts
+
+ Syntax Highlighting
+
+ Scripts and event handling
+
+ Front-end frameworks
+
+ Add content to your site
+
+ Markdown
+
+ Content collections
+
+ Images
+
+ Data fetching
+
+ Astro DB
+
+ Server rendering
+
+ On-demand rendering
+
+ Server islands
+
+ Actions
+
+ Sessions
+
+ Upgrade
+
+ Upgrade Astro
+
+ Major upgrade guides
+
+ v5.0
+
+ v4.0
+
+ v3.0
+
+ v2.0
+
+ v1.0
+
+ Troubleshooting
+
+ How-to recipes
+
+ Recipes overview
+
+ Installing a Vite or Rollup plugin
+
+ Analyze bundle size
+
+ Build a custom image component
+
+ Build HTML forms in Astro pages
+
+ Build forms with API routes
+
+ Use Bun with Astro
+
+ Call endpoints from the server
+
+ Verify a Captcha
+
+ Customize file names in the build output
+
+ Build your Astro site with Docker
+
+ Dynamically import images
+
+ Add icons to external links
+
+ Add i18n features
+
+ Create a dev toolbar app
+
+ Add last modified time
+
+ Add reading time
+
+ Add an RSS feed
+
+ Share state between Astro components
+
+ Share state between islands
+
+ Using streaming to improve page performance
+
+ Style rendered Markdown with Tailwind Typography
+
+ Contribute to Astro
+
+ Astro Template Syntax
+
+ Template expressions reference
+
+ Template directives reference
+
+ Configuration Reference
+
+ CLI Commands
+
+ Imports reference
+
+ Routing Reference
+
+ Runtime API
+
+ Render context
+
+ astro:actions
+
+ astro:assets
+
+ astro:config
+
+ astro:content
+
+ astro:env
+
+ astro:i18n
+
+ astro:middleware
+
+ astro:transitions
+
+ astro/zod
+
+ Other development APIs
+
+ Integration API
+
+ Adapter API
+
+ Content Loader API
+
+ Image Service API
+
+ Dev Toolbar App API
+
+ Container API (experimental)
+
+ Programmatic Astro API (experimental)
+
+ Experimental features
+
+ Configuring experimental flags
+
+ Content Security Policy
+
+ Fonts
+
+ Live content collections
+
+ Client prerendering
+
+ Intellisense for collections
+
+ Preserve scripts order
+
+ Markdown heading ID compatibility
+
+ Private meta environment variables inlining
+
+ Chrome DevTools workspace
+
+ Prerender conflict error
+
+ SVG optimization
+
+ Legacy flags
+
+ Error reference
+
+ Integrations overview
+
+ UI frameworks
+
+ Alpine.js
+
+ Preact
+
+ React
+
+ SolidJS
+
+ Svelte
+
+ Vue
+
+ Adapters
+
+ Cloudflare
+
+ Netlify
+
+ Node
+
+ Vercel
+
+ Other official integrations
+
+ DB
+
+ Markdoc
+
+ MDX
+
+ Partytown
+
+ Sitemap
+
+ Publish to npm
+
+ Deployment guides
+
+ Deployment overview
+
+ AWS
+
+ AWS via Flightcontrol
+
+ AWS via SST
+
+ Azion
+
+ Buddy
+
+ Cleavr
+
+ Clever Cloud
+
+ Cloudflare
+
+ CloudRay
+
+ Deno Deploy
+
+ DeployHQ
+
+ EdgeOne Pages
+
+ Firebase
+
+ Fleek
+
+ Fly.io
+
+ GitHub Pages
+
+ GitLab Pages
+
+ Google Cloud
+
+ Heroku
+
+ Juno
+
+ Microsoft Azure
+
+ Netlify
+
+ Railway
+
+ Render
+
+ Seenode
+
+ Sevalla
+
+ Stormkit
+
+ Surge
+
+ Vercel
+
+ Zeabur
+
+ Zephyr Cloud
+
+ Zerops
+
+ Content management systems
+
+ CMS overview
+
+ ApostropheCMS
+
+ Builder.io
+
+ ButterCMS
+
+ Caisy
+
+ CloudCannon
+
+ Contentful
+
+ Cosmic
+
+ Craft CMS
+
+ Craft Cross CMS
+
+ Crystallize
+
+ DatoCMS
+
+ Decap CMS
+
+ Directus
+
+ Drupal
+
+ Flotiq
+
+ Front Matter CMS
+
+ Ghost
+
+ GitCMS
+
+ Hashnode
+
+ Hygraph
+
+ JekyllPad
+
+ Keystatic
+
+ KeystoneJS
+
+ Kontent.ai
+
+ microCMS
+
+ Optimizely CMS
+
+ Payload CMS
+
+ Prepr CMS
+
+ Prismic
+
+ Sanity
+
+ Sitecore XM
+
+ Sitepins
+
+ Spinal
+
+ Statamic
+
+ Storyblok
+
+ Strapi
+
+ StudioCMS
+
+ Tina CMS
+
+ Umbraco
+
+ Vault CMS
+
+ Wordpress
+
+ Backend services
+
+ Backend services overview
+
+ Appwrite
+
+ Firebase
+
+ Neon
+
+ Prisma Postgres
+
+ Sentry
+
+ Supabase
+
+ Turso
+
+ Xata
+
+ Image and video hosting
+
+ Media hosting overview
+
+ Cloudinary
+
+ Mux
+
+ E-commerce
+
+ Authentication
+
+ Testing
+
+ Sponsored by
+
+ GitHub
+
+ Discord
+
+ Select theme
+
+ DarkLightAuto
+
+ Select language
+
+ EnglishDeutschPortuguês do BrasilEspañol简体中文正體中文Françaisहिन्दीالعربية日本語한국어PolskiРусскийItaliano
+
+ Sponsored by
+
+ Learn Astro with Coding in Public
+
+ 150+ video lessons
+
+ •
+ Astro v5 ready
+
+ Get 20% off
+
+ Configuration overview
+
+ Astro is a flexible, unopinionated framework that allows you to configure your project in many different ways. This means that getting started with a new project might feel overwhelming: there is no “one best way” to set up your Astro project!
+
+The guides in this “Configuration” section will help you familiarize yourself with the various files that allow you to configure and customize aspects of your project and development environment.
+
+If this is your first Astro project, or if it’s been a while since you’ve set up a new project, use the following guides and reference in the documentation for assistance.
+
+The Astro config File
+Section titled “The Astro config File”
+
+The Astro config file is a JavaScript file included at the root of every starter project:
+
+astro.config.mjsimport { defineConfig } from "astro/config";
+
+export default defineConfig({
+
+ // your configuration options here...
+
+});
+
+It is only required if you have something to configure, but most projects will use this file. The defineConfig() helper provides automatic IntelliSense in your IDE and is where you will add all your configuration options to tell Astro how to build and render your project to HTML.
+
+We recommend using the default file format .mjs in most cases, or .ts if you want to write TypeScript in your config file. However, astro.config.js and astro.config.cjs are also supported.
+
+ Read Astro’s configuration reference for a full overview of all supported configuration options.
+
+The TypeScript config File
+Section titled “The TypeScript config File”
+
+Every Astro starter project includes a tsconfig.json file in your project. Astro’s component script is Typescript, which provides Astro’s editor tooling and allows you to optionally add syntax to your JavaScript for type checking of your own project code.
+
+Use the tsconfig.json file to configure the TypeScript template that will perform type checks on your code, configure TypeScript plugins, set import aliases, and more.
+
+ Read Astro’s TypeScript guide for a full overview of TypeScript options and Astro’s built-in utility types.
+
+Development Experience
+Section titled “Development Experience”
+
+While you work in development mode, you can take advantage of your code editor and other tools to improve the Astro developer experience.
+
+Astro provides its own official VS Code extension and is compatible with several other popular editor tools. Astro also provides a customizable toolbar that displays in your browser preview while the dev server is running. You can install and even build your own toolbar apps for additional functionality.
+
+ Read Astro’s guides to editor setup options and using the dev toolbar to learn how to customize your development experience.
+
+Common new project tasks
+Section titled “Common new project tasks”
+
+Here are some first steps you might choose to take with a new Astro project.
+
+Add your deployment domain
+Section titled “Add your deployment domain”
+
+For generating your sitemap and creating canonical URLs, configure your deployment URL in the site option. If you are deploying to a path (e.g. www.example.com/docs), you can also configure a base for the root of your project.
+
+Additionally, different deployment hosts may have different behavior regarding trailing slashes at the end of your URLs. (e.g. example.com/about vs example.com/about/). Once your site is deployed, you may need to configure your trailingSlash preference.
+
+astro.config.mjsimport { defineConfig } from "astro/config";
+
+export default defineConfig({
+
+ site: "https://www.example.com",
+
+ base: "/docs",
+
+ trailingSlash: "always",
+
+});
+
+Add site metadata
+Section titled “Add site metadata”
+
+Astro does not use its configuration file for common SEO or meta data, only for information required to build your project code and render it to HTML.
+
+Instead, this information is added to your page <head> using standard HTML <link> and <meta> tags, just as if you were writing plain HTML pages.
+
+One common pattern for Astro sites is to create a <Head /> .astro component that can be added to a common layout component so it can apply to all your pages.
+
+src/components/MainLayout.astro---
+
+import Head from "./Head.astro";
+
+const { ...props } = Astro.props;
+
+---
+
+<html>
+
+ <head>
+
+ <meta charset="utf-8">
+
+ <Head />
+
+ <!-- Additional head elements -->
+
+ </head>
+
+ <body>
+
+ <!-- Page content goes here -->
+
+ </body>
+
+</html>
+
+Because Head.astro is just a regular Astro component, you can import files and receive props passed from other components, such as a specific page title.
+
+src/components/Head.astro---
+
+import Favicon from "../assets/Favicon.astro";
+
+import SomeOtherTags from "./SomeOtherTags.astro";
+
+const { title = "My Astro Website", ...props } = Astro.props;
+
+---
+
+<link rel="sitemap" href="/sitemap-index.xml">
+
+<title>{title}</title>
+
+<meta name="description" content="Welcome to my new Astro site!">
+
+<!-- Web analytics -->
+
+<script data-goatcounter="https://my-account.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+<!-- Open Graph tags -->
+
+<meta property="og:title" content="My New Astro Website" />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="http://www.example.com/" />
+
+<meta property="og:description" content="Welcome to my new Astro site!" />
+
+<meta property="og:image" content="https://www.example.com/_astro/seo-banner.BZD7kegZ.webp">
+
+<meta property="og:image:alt" content="">
+
+<SomeOtherTags />
+
+<Favicon />
+
+ Learn
+
+ Learn Astro with James Q Quick
+
+ Build your first site with 35 interactive Scrimba lessons
+
+ Get 20% off
+
+ Contribute
+
+ Community
+
+ Sponsor
+```
+

@@ -1,0 +1,87 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [GraphQL Best Practices (graphql.org)](https://graphql.org/learn/best-practices/)
+- [Apollo Schema Naming Conventions](https://www.apollographql.com/docs/technotes/TN0002-schema-naming-conventions)
+- [GraphQL style guide (Jake Dawkins)](https://jakedawkins.com/blog/graphql-style.guide/)
+- [Principled GraphQL](https://principledgraphql.com/)
+- [Kristories awesome-guidelines (browse GraphQL)](https://github.com/Kristories/awesome-guidelines)
+---
+
+
+---
+
+---
+
+## Source: GraphQL Best Practices (graphql.org)
+
+**URL:** https://graphql.org/learn/best-practices/  
+**Crawled:** 2026-03-03T06:36:27Z
+
+```
+GraphQL Best Practices | GraphQL
+
+light
+
+Learn
+Introduction
+Schemas and Types
+Queries
+Mutations
+Subscriptions
+Validation
+Execution
+Response
+Introspection
+Best Practices
+Introduction
+Thinking in Graphs
+Serving over HTTP
+File Uploads
+Authorization
+Pagination
+Schema Design
+Global Object Identification
+Caching
+Performance
+Security
+Federation
+Common GraphQL over HTTP Errors
+
+light
+
+LearnIntroduction
+GraphQL Best Practices
+
+The GraphQL specification is intentionally silent on a handful of important issues facing APIs such as dealing with the network, authorization, and pagination. This doesn’t mean that there aren’t solutions for these issues when using GraphQL, just that they’re outside the description about what GraphQL is and instead just common practice.
+
+The articles in this section should not be taken as gospel, and in some cases may rightfully be ignored in favor of some other approach. Some articles introduce some of the philosophy developed within Facebook around designing and deploying GraphQL services, while others are more tactical suggestions for solving common problems like serving over HTTP and performing authorization.
+
+Lesson 1Thinking in GraphsModel your business domain as a graph
+
+Lesson 2Serving over HTTPHandle GraphQL requests on HTTP servers
+
+Lesson 3AuthorizationDelegate authorization logic to the business logic layer
+
+Lesson 4PaginationAllow clients to traverse lists of objects with a consistent field pagination model
+
+Lesson 5Schema DesignDesign and evolve a type system over time without versions
+
+Lesson 6Global Object IdentificationConsistent object access enables simple caching and object lookups
+
+Lesson 7CachingProvide Object Identifiers so clients can build rich caches
+
+Lesson 8PerformanceOptimize the execution and delivery of GraphQL responses
+
+Lesson 9SecurityProtect GraphQL APIs from malicious operations
+
+Lesson 10Common ErrorsLearn about common `graphql-http` errors and how to debug them.
+
+next lesson
+Thinking in Graphs
+Learn how to shift your mindset from RESTful endpoints to graph-based thinking, aligning your schema with business logic and legacy systems.
+Go to next lesson
+```
+

@@ -1,0 +1,182 @@
+---
+## Style guide sources (for crawling)
+
+Specific pages to crawl for this topic:
+
+- [Scala style guide (Scala Documentation)](https://docs.scala-lang.org/style/)
+- [Databricks Scala style guide](https://github.com/databricks/scala-style-guide)
+- [Kristories awesome-guidelines (browse Scala)](https://github.com/Kristories/awesome-guidelines)
+- [Project Rules – Scala](https://www.projectrules.ai/)
+- [Google Style Guide index](https://google.github.io/styleguide/)
+---
+
+
+---
+
+---
+
+## Source: Scala style guide (Scala Documentation)
+
+**URL:** https://docs.scala-lang.org/style/  
+**Crawled:** 2026-03-03T06:35:39Z
+
+```
+Scala Style Guide |
+   |
+ Scala Documentation
+
+ Scala Style Guide
+
+ Language
+
+ This document is intended to outline some basic Scala stylistic guidelines which should be followed with more or less fervency. Wherever possible, this guide attempts to detail why a particular style is encouraged and how it relates to other alternatives. As with all style guides, treat this document as a list of rules to be broken. There are certainly times when alternative styles should be preferred over the ones given here.
+
+ Indentation
+
+ Line Wrapping
+
+ Methods with Numerous Arguments
+
+ Naming Conventions
+
+ Classes/Traits
+
+ Objects
+
+ Packages
+
+ root
+
+ Methods
+
+ Accessors/Mutators
+
+ Parentheses
+
+ Symbolic Method Names
+
+ Constants, Values and Variables
+
+ Type Parameters (generics)
+
+ Higher-Kinds and Parameterized Type parameters
+
+ Annotations
+
+ Special Note on Brevity
+
+ Types
+
+ Inference
+
+ Function Values
+
+ Annotations
+
+ Ascription
+
+ Functions
+
+ Arity-1
+
+ Structural Types
+
+ Nested Blocks
+
+ Curly Braces
+
+ Parentheses
+
+ Declarations
+
+ Classes
+
+ Ordering Of Class Elements
+
+ Methods
+
+ Procedure Syntax
+
+ Modifiers
+
+ Body
+
+ Multiple Parameter Lists
+
+ Higher-Order Functions
+
+ Fields
+
+ Function Values
+
+ Spacing
+
+ Multi-Expression Functions
+
+ Control Structures
+
+ Curly-Braces
+
+ Comprehensions
+
+ Trivial Conditionals
+
+ Method Invocation
+
+ Arity-0
+
+ Arity-1 (Infix Notation)
+
+ Symbolic Methods/Operators
+
+ Higher-Order Functions
+
+ Files
+
+ Scaladoc
+
+ General Style
+
+ Packages
+
+ Classes, Objects, and Traits
+
+ Classes
+
+ Objects
+
+ Traits
+
+ Methods and Other Members
+
+Thanks to
+
+Daniel Spiewak and David Copeland for putting this style guide together, and Simon Ochsenreither for converting it to Markdown.
+
+ Contributors to this page:
+
+ Contents
+
+ Overview
+
+ Indentation
+
+ Naming Conventions
+
+ Types
+
+ Nested Blocks
+
+ Declarations
+
+ Control Structures
+
+ Method Invocation
+
+ Files
+
+ Scaladoc
+
+ Problem with this page?     Please help us fix it!
+```
+
