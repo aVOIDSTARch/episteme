@@ -18,10 +18,15 @@ Recompute integrity hashes for skills and compare to stored values.
 
 ## Instructions
 
-1. Read the documents listed in **Read first** to understand the schema or behavior.
-2. When the trigger in **When to use** occurs, decide whether this skill applies; ask clarifying questions when necessary to reduce unnecessary work.
-3. Apply the conventions from the referenced _docs or notes when creating or updating files.
-4. Summarize what you did and what to do next so the next agent can continue.
+1. Read the documents listed in **Read first** to understand the schema (Integrity hash field, algorithm).
+2. **Scope:** Determine which skills to check (e.g. one skill folder, all under episteme-skills/, or a user-specified list). If unclear, ask.
+3. **For each skill in scope:**
+   - Read the skill’s SKILL.md (and optionally all files in the folder). Normalize for hashing: e.g. strip the “Integrity hash” line (and any “Last verified” line) so the stored hash is not part of the content being hashed; use a single canonical format (e.g. UTF-8, LF line endings).
+   - Compute the integrity hash (e.g. SHA-256) of the normalized content. Algorithm should match what the skill-definition or standard specifies (e.g. SHA-256).
+   - If the skill’s SKILL.md has an **Integrity hash** field with a value: compare computed hash to stored value. Report: **Match** or **Mismatch** (possible tampering or prompt injection; recommend review).
+   - If the skill has no stored hash or it says “(To be filled…)”: report **No hash stored**; optionally offer to write the computed hash into the SKILL.md for future checks.
+4. **Report:** Summarize per-skill result (match / mismatch / no hash). If any mismatch, recommend manual review before trusting the skill.
+5. Summarize what you did and what to do next so the next agent can continue.
 
 
 ## Read first

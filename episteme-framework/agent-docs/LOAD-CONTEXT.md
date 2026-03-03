@@ -6,6 +6,8 @@
 
 ## Minimal context set (paths from repo root)
 
+**Portal:** Paths assume the Episteme **repository root** (the directory containing `AGENTS.md` and `episteme-framework/`). If your entry point is a clone, fork, or submodule, use that root; then the paths below are correct as given.
+
 Load these in order when you need to bootstrap with minimal reads:
 
 | Order | Path | Why |

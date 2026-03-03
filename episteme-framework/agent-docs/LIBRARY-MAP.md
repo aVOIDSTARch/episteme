@@ -8,7 +8,7 @@ Passive map of the Episteme library. No actions required; use these links to exp
 
 | Section | What’s there | Entry link |
 |--------|---------------|------------|
-| **Ai-docs** | System capabilities, skills map, code-guide usage, TODO. | [README.md](README.md) (this folder’s index) |
+| **Ai-docs** | Skills map, code-guide usage, meta-agent, LIBRARY-MAP, NEW-PROJECT, OVERRIDES, LOAD-CONTEXT. | [README.md](README.md) (this folder’s index) |
 | **Skills** | Episteme-native skills: tree, legend, flat list, per-skill SKILL.md. | [my-skills/episteme-skills/README.md](../my-skills/episteme-skills/README.md) · [SKILLS_TREE.md](../my-skills/episteme-skills/SKILLS_TREE.md) |
 | **Tracking system** | Project schemas (001), planning (002), progress (003), completed (004), after-action (005); _docs + sample. | [projects/tracking-system/](../projects/tracking-system/) · [example-project/](../projects/example-project/) |
 | **Ideas engine** | Spec: format, location (~/ideas), slash commands, future-app invariants; sample topic file. | [ideas-engine/README.md](../ideas-engine/README.md) · [sample/](../ideas-engine/sample/) · [_idea-file-schema.md](../ideas-engine/_idea-file-schema.md) |

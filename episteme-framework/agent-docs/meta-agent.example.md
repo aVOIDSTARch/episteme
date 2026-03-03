@@ -73,7 +73,7 @@ All scan your completed-projects appendix files (e.g. `~/completed-projects/*-ap
 
 **Format per entry:** `**Verbatim:** "user text"` and `**Claude:**` (or agent) interpretation (implications, connections). Never rewrite Verbatim. Suggest topic merge/split occasionally.
 
-- **`/ideas`** — Menu of topics → show entries; options: **Synthesize** (extended thinking, e.g. turn a topic into 10–15 project ideas; show inline, then return), **Return to topic list**.
+- **`/ideas`** — Menu of topics → show entries; options: **Synthesize** (extended thinking, e.g. turn a topic into 10–15 project ideas; show inline, then return), **Insert from file** (specify file path; each paragraph/block becomes one idea, blank lines as separators), **Return to topic list**.
 - **`/add-idea <text>`** — Match or create topic file; append Verbatim and agent interpretation; confirm.
 
 **Future-app invariants (if you build an app):** e.g. `id`, `topic`, `verbatim` (immutable), `agent_interpretation`, `created_at`; 1:1 topic files; append-only; API (e.g. tRPC/REST) with markdown as source.

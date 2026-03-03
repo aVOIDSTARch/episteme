@@ -8,13 +8,13 @@
 
 | Section | Path | Entry / README |
 |---------|------|----------------|
-| **Agent docs** | [agent-docs/](agent-docs/) | [README.md](agent-docs/README.md) — index, meta-agent, LIBRARY-MAP, TODO, NEW-PROJECT, OVERRIDES |
+| **Agent docs** | [agent-docs/](agent-docs/) | [README.md](agent-docs/README.md) — index, meta-agent, LIBRARY-MAP, NEW-PROJECT, OVERRIDES, LOAD-CONTEXT |
 | **Skills** | [my-skills/episteme-skills/](my-skills/episteme-skills/) | [README.md](my-skills/episteme-skills/README.md) · [SKILLS_TREE.md](my-skills/episteme-skills/SKILLS_TREE.md) |
 | **Projects (tracking)** | [projects/](projects/) | [tracking-system/](projects/tracking-system/) — schemas 001–005; [example-project/](projects/example-project/) — sample |
 | **Ideas engine** | [ideas-engine/](ideas-engine/) | [README.md](ideas-engine/README.md) · [sample/](ideas-engine/sample/) |
 | **Language style guides** | [language-style-guides/](language-style-guides/) | [public/master/README.md](language-style-guides/public/master/README.md) · [code-guide-sources.md](language-style-guides/code-guide-sources.md) |
 | **Project documentation** | [project-documentation/](project-documentation/) | README and templates |
-| **Config** | (see repo root) | .gitignore, etc.; framework config lives under agent-docs (OVERRIDES) and repo root (SECRETS.md) |
+| **Config / templates** | [config-files/](config-files/) · [project-documentation/](project-documentation/) | .gitignore universal; project README template. Overrides: [agent-docs/OVERRIDES.md](agent-docs/OVERRIDES.md). Secrets: repo root [SECRETS.md](../SECRETS.md). |
 
 ---
 
@@ -26,3 +26,4 @@
 - **New project:** [agent-docs/NEW-PROJECT.md](agent-docs/NEW-PROJECT.md)
 - **Overrides / local config:** [agent-docs/OVERRIDES.md](agent-docs/OVERRIDES.md)
 - **Secrets (repo root):** [../SECRETS.md](../SECRETS.md)
+- **Manifest (programmatic):** [MANIFEST.md](MANIFEST.md) — list of all _*.md, SKILL.md, code-guide-*.ai (regenerate with `scripts/generate_manifest.py`).

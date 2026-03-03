@@ -23,7 +23,7 @@ episteme/
 ├── .cursorrules              # Cursor: read AGENTS.md + framework
 ├── .cursor/rules/            # Cursor rules (episteme-bootstrap.mdc)
 ├── episteme-framework/       # Framework content (library + agent docs)
-│   ├── agent-docs/           # Ai-docs index, meta-agent, library map, TODO
+│   ├── agent-docs/           # Ai-docs index, meta-agent, LIBRARY-MAP, OVERRIDES, LOAD-CONTEXT
 │   ├── my-skills/            # Skill definition, episteme-skills, examples
 │   ├── projects/             # Tracking system (_docs) + example-project
 │   ├── ideas-engine/         # Ideas spec, schema, AGENT-INSTRUCTIONS
@@ -38,7 +38,7 @@ episteme/
 
 ## For agents
 
-**Start here:** Read [AGENTS.md](AGENTS.md) at repo root. It points to the canonical agent entry ([episteme-framework/agent-docs/README.md](episteme-framework/agent-docs/README.md)), the meta-agent template, and the library map for perusal.
+**Start here:** Read [AGENTS.md](AGENTS.md) at repo root. All paths assume the **repo root** (this directory) is the portal. AGENTS.md points to the ai-docs index, meta-agent template, library map, OVERRIDES, and LOAD-CONTEXT for minimal bootstrap.
 
 ---
 

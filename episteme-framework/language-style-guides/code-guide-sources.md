@@ -30,7 +30,9 @@
 
 ## Scraped content in this repo
 
+- **scripts/** — Scrapers and runner: [scripts/README.md](scripts/README.md). Run `python scrape_guides.py` from scripts/ (use venv + requirements-scrape.txt). Report: `scrape-report-<timestamp>.md` in this folder.
 - **public/google/** — Fetched from Google style guide; one .md per topic. See [public/google/README.md](public/google/README.md) and PROCESSED.md for merge status.
+- **public/peps/**, **public/dart/**, **public/android/** — Scraped from PEP 8, Effective Dart, Android Kotlin style guide (one .md per run).
 - **public/master/** — Merged, normalized code-guide-*.ai files. Schema: [public/master/code-guide-master-file.md](public/master/code-guide-master-file.md).
 
 ---

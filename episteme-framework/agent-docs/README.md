@@ -9,11 +9,12 @@
 | Doc | Purpose |
 |-----|---------|
 | **Episteme skills map** | [my-skills/episteme-skills/SKILLS_TREE.md](../my-skills/episteme-skills/SKILLS_TREE.md) — tree, legend, and flat list of episteme skills. See also [episteme-skills/README.md](../my-skills/episteme-skills/README.md). |
-| **[TODO-MIND-MACHINE-BASE.md](TODO-MIND-MACHINE-BASE.md)** | Checklist to complete the repo as a base fork: agent interface, structures, data files, automation, passive library affordances, personalization. **Increment:** [todo-2.md](todo-2.md). |
 | **[LIBRARY-MAP.md](LIBRARY-MAP.md)** | Passive perusal map: links to ai-docs, skills, tracking, ideas-engine, code guides, config. No actions; to act use meta-agent + skills. |
 | **[INDEX.md](../INDEX.md)** | Framework sitemap: one doc linking every major section (agent-docs, my-skills, projects, ideas-engine, language-style-guides). |
+| **[MANIFEST.md](../MANIFEST.md)** | Programmatic list of all _*.md, SKILL.md, code-guide-*.ai (regenerate with `scripts/generate_manifest.py`). |
 | **[OVERRIDES.md](OVERRIDES.md)** | Where to set IDEAS_ROOT, completed-projects path, .episteme-local; env vars. |
 | **[NEW-PROJECT.md](NEW-PROJECT.md)** | What to copy into a new project (AGENTS.md/CLAUDE.md, point to meta-agent; optional tracking _docs). |
+| **[LOAD-CONTEXT.md](LOAD-CONTEXT.md)** | Minimal context set: exact file paths (meta-agent, skills tree, project schema) + why this set; for token-limited or quick bootstrap. |
 
 ---
 

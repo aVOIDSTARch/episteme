@@ -19,6 +19,7 @@
 3. **On user selection:** Open that topic file and display each idea entry (Verbatim + Claude/Agent interpretation). Preserve order (top to bottom = oldest to newest unless schema says otherwise).
 4. **Offer actions:**
    - **Synthesize** — Use extended thinking to generate 10–15 project ideas that combine or build on the ideas in this topic. Present the list inline (numbered, short titles + one-line description). Then offer “Return to topic list” or “Return to prompt”.
+   - **Insert from file** — User supplies a file path. Read the file; split by blank lines (each paragraph/block = one idea). For each block, append to a topic (chosen or created) per _idea-file-schema (Verbatim + Agent interpretation). Use skill **INSERT_IDEAS_FROM_FILE** (episteme-skills).
    - **Return to topic list** — Go back to the list of topics.
    - **Return to prompt** — Exit to normal chat.
 5. Use menus (e.g. `AskUserQuestion` or equivalent) when available; always include “Return to prompt”.

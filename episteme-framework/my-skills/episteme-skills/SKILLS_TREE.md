@@ -39,6 +39,9 @@ MANAGE_IDEAS ✅
 │   ├── MATCH_OR_CREATE_TOPIC ✅  
 │   ├── APPEND_VERBATIM_AND_INTERPRETATION ✅  
 │   └── CONFIRM_ADD ✅  
+├── INSERT_IDEAS_FROM_FILE ✅  
+│   ├── MATCH_OR_CREATE_TOPIC ✅  
+│   └── APPEND_VERBATIM_AND_INTERPRETATION ✅  
 ├── SYNTHESIZE_TOPIC_TO_PROJECT_IDEAS ✅  
 └── (optional) SUGGEST_TOPIC_MERGE_OR_SPLIT
 
@@ -58,8 +61,8 @@ MANAGE_SKILLS ✅
 │   ├── ASSESS_SKILL_RISK ✅  
 │   └── WRITE_META_DOC ✅  
 ├── EPISTEME_SKILL_SCAFFOLD ✅  
-├── (future) SKILL_INTEGRITY_CHECK ✅  
-└── (future) SKILL_STANDARD_SYNC ✅  
+├── SKILL_INTEGRITY_CHECK ✅  
+└── SKILL_STANDARD_SYNC ✅  
 
 EPISTEME_DESIGN ✅  
 ├── READ_DOCS_DESIGN_LANGUAGE ✅  
@@ -117,6 +120,7 @@ ONBOARD_AGENT_TO_EPISTEME ✅
 | MATCH_OR_CREATE_TOPIC | Choose existing topic or propose new topic name; confirm before create. |
 | APPEND_VERBATIM_AND_INTERPRETATION | Append one entry to topic file per _idea-file-schema. |
 | CONFIRM_ADD | Confirm what was added and where. |
+| INSERT_IDEAS_FROM_FILE | Read file; split by blank lines; insert each block as idea (topic chosen or created). |
 | SYNTHESIZE_TOPIC_TO_PROJECT_IDEAS | Extended thinking: 10–15 project ideas from topic; show inline. |
 | META_AGENT_NAVIGATION | /menu and slash commands: incompletes, do-more, whats-next, ideas. |
 | SHOW_MENU | Present Projects / Ideas / Something else. |
@@ -135,8 +139,8 @@ ONBOARD_AGENT_TO_EPISTEME ✅
 | EPISTEME_DESIGN | Create or validate _docs and instance docs per design language. |
 | READ_DOCS_DESIGN_LANGUAGE | Load _docs format, naming, template (e.g. _docs-format-and-design-notes). |
 | CREATE_OR_VALIDATE_UNDERSCORE_DOC | Create or validate one _doc and/or instance doc. |
-| SKILL_INTEGRITY_CHECK | (Future.) Recompute hash; compare to stored; report tampering risk. |
-| SKILL_STANDARD_SYNC | (Future.) Compare local skill-standard to website; report drift. |
+| SKILL_INTEGRITY_CHECK | Recompute hash (e.g. SHA-256) of skill content; compare to stored; report match/mismatch/no hash. |
+| SKILL_STANDARD_SYNC | Compare local skill-standard to canonical website (if URL known); report in sync / drift / local only. |
 | ONBOARD_AGENT_TO_EPISTEME | Orchestrate onboarding for a naive agent: explain episteme and, if applicable, orient to the current project. |
 | INTRO_TO_EPISTEME | Explain what the episteme framework is and how agents should behave in this repo. |
 | ORIENT_TO_CURRENT_PROJECT | Summarize the current project from tracking docs and state what to do next. |
