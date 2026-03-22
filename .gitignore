@@ -558,3 +558,4 @@ __pycache__/
 # *.js.map
 # *.min.js
 # *.min.css
+.DS_Store
